@@ -5,7 +5,6 @@ from __future__ import absolute_import
 
 import numpy as np
 
-import warnings
 import os
 
 import astropy.units as u
