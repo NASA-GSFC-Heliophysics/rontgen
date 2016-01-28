@@ -16,4 +16,4 @@ def _get_material():
     h.close()
     return material_list
 
-material_list = get_material()
+material_list = _get_material()
