@@ -1,0 +1,26 @@
+{
+	"Cadmium Telluride": {
+		"symbol": "CdTe",
+        "density": {
+            "value": 6.2,
+            "unit": "g/cm^3",
+        },
+        "file": "telluride.csv"
+	},
+    "Cadmium Zinc Telluride": {
+		"symbol": "CZT",
+        "density": {
+            "value": 6.06,
+            "unit": "g/cm^3",
+        },
+        "file": "mylar.csv"
+	}
+    "Mylar": {
+        "symbol": "Mylar",
+        "density": {
+            "value": 1.379,
+            "unit": "g/cm^3",
+        },
+        "file": "mylar.csv"
+    }
+}

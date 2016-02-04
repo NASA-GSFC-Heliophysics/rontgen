@@ -12,7 +12,11 @@
 	"Al": {
 		"atomicNumber": 13,
 		"name": "Aluminum",
-		"symbol": "Al"
+		"symbol": "Al",
+        "density": {
+            "value": 2.7,
+            "unit": "g/cm^3",
+        }
 	},
 	"Am": {
 		"atomicNumber": 95,
@@ -52,7 +56,11 @@
 	"Be": {
 		"atomicNumber": 4,
 		"name": "Beryllium",
-		"symbol": "Be"
+		"symbol": "Be",
+        "density": {
+            "value": 1.848,
+            "unit": "g/cm^3",
+        },
 	},
 	"Bi": {
 		"atomicNumber": 83,
@@ -422,7 +430,11 @@
 	"Si": {
 		"atomicNumber": 14,
 		"name": "Silicon",
-		"symbol": "Si"
+		"symbol": "Si",
+        "density": {
+            "value": 2.33,
+            "unit": "g/cm^3",
+        }
 	},
 	"Sm": {
 		"atomicNumber": 62,
