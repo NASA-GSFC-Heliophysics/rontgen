@@ -2,9 +2,11 @@
 # and writes the data files
 #
 import numpy as np
-url_base = "http://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/"
 import urllib2
 import re
+
+url_base = "http://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/"
+savefile = False
 
 for z in np.arange(1, 93, 1):
     f = 'z' + str(z).zfill(2)
@@ -23,9 +25,9 @@ for z in np.arange(1, 93, 1):
     data_str = lines[line_numbers[0]:line_numbers[1]]
     data_str = [datum.lstrip().rstrip().split() for datum in data_str]
     # remove edge strings
-    for datum in data_str:
-        if len(datum) > 3:
-            print(datum)
+    #for datum in data_str:
+        #if len(datum) > 3:
+        #    print(datum)
     data = [datum[1:] if len(datum) > 3 else datum for datum in data_str]
     # remove empty lines
     data = [datum for datum in data if len(datum) > 1]
@@ -40,10 +42,11 @@ for z in np.arange(1, 93, 1):
     header += 'energy, mu/rho, mu_en/rho\n'
     header += 'meV, cm2/g, cm2/g'
 
-    np.savetxt(f + '.csv', data,                # array to save
-        fmt='%.3e',
-        delimiter=',',          # column delimiter
-        newline='\n',           # new line character
-        footer='end of file',   # file footer
-        comments='# ',          # character to use for comments
-        header=header)
+    if savefile:
+        np.savetxt(f + '.csv', data,                # array to save
+            fmt='%.3e',
+            delimiter=',',          # column delimiter
+            newline='\n',           # new line character
+            footer='end of file',   # file footer
+            comments='# ',          # character to use for comments
+            header=header)
