@@ -5,8 +5,8 @@
 import numpy as np
 from bs4 import BeautifulSoup, SoupStrainer
 import urllib2
-import re
 import os
+import json
 
 url = "http://physics.nist.gov/PhysRefData/XrayMassCoef/tab4.html"
 
@@ -14,20 +14,23 @@ page = urllib2.urlopen(url)
 soup = BeautifulSoup(page.read(), "lxml", parse_only=SoupStrainer('a'))
 
 link_list = []
+name_list = []
+file_dict = {}
+savefile = True
 
 for link in soup:
     if link.has_attr('href'):
         if link['href'].count('ComTab'):
             link_list.append('http://physics.nist.gov/PhysRefData/XrayMassCoef/' + link['href'])
+            name_list.append(link.text)
 
-for url in link_list:
+for url, name in zip(link_list, name_list):
     print(url)
     r = urllib2.urlopen(url).read()
     f = os.path.basename(url).split('.')[0]
     print(f)
     lines = r.split('\n')
-    title = re.sub('<[^<]+?>', '', lines[1])
-    element_name = title.rsplit(None, 1)[-1]
+    element_name = name
     print(element_name)
     short_lines = [line[0:5] for line in lines]
     try:
@@ -38,9 +41,9 @@ for url in link_list:
     data_str = lines[line_numbers[0]:line_numbers[1]]
     data_str = [datum.lstrip().rstrip().split() for datum in data_str]
     # remove edge strings
-    for datum in data_str:
-        if len(datum) > 3:
-            print(datum[-3:])
+    #for datum in data_str:
+        #if len(datum) > 3:
+        #    print(datum[-3:])
     data = [datum[-3:] if len(datum) > 3 else datum for datum in data_str]
     # remove empty lines
     data = [datum for datum in data if len(datum) > 1]
@@ -55,10 +58,17 @@ for url in link_list:
     header += 'energy, mu/rho, mu_en/rho\n'
     header += 'meV, cm2/g, cm2/g'
 
-    np.savetxt(f + '.csv', data,                # array to save
-        fmt='%.3e',
-        delimiter=',',          # column delimiter
-        newline='\n',           # new line character
-        footer='end of file',   # file footer
-        comments='# ',          # character to use for comments
-        header=header)
+    file_dict.update({name: f + '.csv'})
+
+    if savefile:
+        np.savetxt(f + '.csv', data,                # array to save
+            fmt='%.3e',
+            delimiter=',',          # column delimiter
+            newline='\n',           # new line character
+            footer='end of file',   # file footer
+            comments='# ',          # character to use for comments
+            header=header)
+
+# save the conversion dictionary
+with open('data.json', 'w') as fp:
+    json.dump(file_dict, fp)
