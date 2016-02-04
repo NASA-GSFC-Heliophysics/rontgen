@@ -103,7 +103,11 @@
         "atomicNumber": 32,
         "symbol": "Ge",
         "name": "Germanium",
-        "file": "z32.csv"
+        "file": "z32.csv",
+        "density": {
+            "unit": "g/cm^3",
+            "value": 5.33
+        }
     },
     "Gd": {
         "atomicNumber": 64,
