@@ -70,5 +70,5 @@ for url, name in zip(link_list, name_list):
             header=header)
 
 # save the conversion dictionary
-with open('data.json', 'w') as fp:
-    json.dump(file_dict, fp)
+with open('compounds.json', 'w') as fp:
+    json.dump(file_dict, fp, sort_keys=True, indent=4)
