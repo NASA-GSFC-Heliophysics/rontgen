@@ -1,630 +1,630 @@
 {
-    "Re": {
-        "atomicNumber": 75,
-        "symbol": "Re",
-        "name": "Rhenium",
-        "file": "z75.csv"
-    },
-    "Rf": {
-        "atomicNumber": 104,
-        "symbol": "Rf",
-        "name": "Rutherfordium",
-        "file": "z104.csv"
-    },
-    "Ra": {
-        "atomicNumber": 88,
-        "symbol": "Ra",
-        "name": "Radium",
-        "file": "z88.csv"
-    },
-    "Rb": {
-        "atomicNumber": 37,
-        "symbol": "Rb",
-        "name": "Rubidium",
-        "file": "z37.csv"
-    },
-    "Rn": {
-        "atomicNumber": 86,
-        "symbol": "Rn",
-        "name": "Radon",
-        "file": "z86.csv"
-    },
-    "Rh": {
-        "atomicNumber": 45,
-        "symbol": "Rh",
-        "name": "Rhodium",
-        "file": "z45.csv"
-    },
-    "Be": {
-        "atomicNumber": 4,
-        "symbol": "Be",
-        "name": "Beryllium",
-        "file": "z04.csv",
+    "a": {
+        "atomicNumber": 79, 
+        "file": "z79.csv", 
+        "name": "Gold", 
+        "symbol": "A"
+    }, 
+    "ac": {
+        "atomicNumber": 89, 
+        "file": "z89.csv", 
+        "name": "Actinium", 
+        "symbol": "Ac"
+    }, 
+    "ag": {
+        "atomicNumber": 47, 
+        "file": "z47.csv", 
+        "name": "Silver", 
+        "symbol": "Ag"
+    }, 
+    "al": {
+        "atomicNumber": 13, 
         "density": {
-            "unit": "g/cm^3",
-            "value": 1.848
-        }
-    },
-    "Ba": {
-        "atomicNumber": 56,
-        "symbol": "Ba",
-        "name": "Barium",
-        "file": "z56.csv"
-    },
-    "Bi": {
-        "atomicNumber": 83,
-        "symbol": "Bi",
-        "name": "Bismuth",
-        "file": "z83.csv"
-    },
-    "Bk": {
-        "atomicNumber": 97,
-        "symbol": "Bk",
-        "name": "Berkelium",
-        "file": "z97.csv"
-    },
-    "Br": {
-        "atomicNumber": 35,
-        "symbol": "Br",
-        "name": "Bromine",
-        "file": "z35.csv"
-    },
-    "H": {
-        "atomicNumber": 1,
-        "symbol": "H",
-        "name": "Hydrogen",
-        "file": "z01.csv"
-    },
-    "L": {
-        "atomicNumber": 71,
-        "symbol": "L",
-        "name": "Lutetium",
-        "file": "z71.csv"
-    },
-    "P": {
-        "atomicNumber": 94,
-        "symbol": "P",
-        "name": "Plutonium",
-        "file": "z94.csv"
-    },
-    "Os": {
-        "atomicNumber": 76,
-        "symbol": "Os",
-        "name": "Osmium",
-        "file": "z76.csv"
-    },
-    "Hg": {
-        "atomicNumber": 80,
-        "symbol": "Hg",
-        "name": "Mercury",
-        "file": "z80.csv"
-    },
-    "Ge": {
-        "atomicNumber": 32,
-        "symbol": "Ge",
-        "name": "Germanium",
-        "file": "z32.csv",
-        "density": {
-            "unit": "g/cm^3",
-            "value": 5.33
-        }
-    },
-    "Gd": {
-        "atomicNumber": 64,
-        "symbol": "Gd",
-        "name": "Gadolinium",
-        "file": "z64.csv"
-    },
-    "Ga": {
-        "atomicNumber": 31,
-        "symbol": "Ga",
-        "name": "Gallium",
-        "file": "z31.csv"
-    },
-    "Pr": {
-        "atomicNumber": 59,
-        "symbol": "Pr",
-        "name": "Praseodymium",
-        "file": "z59.csv"
-    },
-    "Pt": {
-        "atomicNumber": 78,
-        "symbol": "Pt",
-        "name": "Platinum",
-        "file": "z78.csv"
-    },
-    "C": {
-        "atomicNumber": 29,
-        "symbol": "C",
-        "name": "Copper",
-        "file": "z29.csv"
-    },
-    "Pb": {
-        "atomicNumber": 82,
-        "symbol": "Pb",
-        "name": "Lead",
-        "file": "z82.csv"
-    },
-    "Pa": {
-        "atomicNumber": 91,
-        "symbol": "Pa",
-        "name": "Protactinium",
-        "file": "z91.csv"
-    },
-    "Pd": {
-        "atomicNumber": 46,
-        "symbol": "Pd",
-        "name": "Palladium",
-        "file": "z46.csv"
-    },
-    "Xe": {
-        "atomicNumber": 54,
-        "symbol": "Xe",
-        "name": "Xenon",
-        "file": "z54.csv"
-    },
-    "Po": {
-        "atomicNumber": 84,
-        "symbol": "Po",
-        "name": "Polonium",
-        "file": "z84.csv"
-    },
-    "Pm": {
-        "atomicNumber": 61,
-        "symbol": "Pm",
-        "name": "Promethium",
-        "file": "z61.csv"
-    },
-    "Ho": {
-        "atomicNumber": 67,
-        "symbol": "Ho",
-        "name": "Holmium",
-        "file": "z67.csv"
-    },
-    "Hf": {
-        "atomicNumber": 72,
-        "symbol": "Hf",
-        "name": "Hafnium",
-        "file": "z72.csv"
-    },
-    "Mo": {
-        "atomicNumber": 42,
-        "symbol": "Mo",
-        "name": "Molybdenum",
-        "file": "z42.csv"
-    },
-    "He": {
-        "atomicNumber": 2,
-        "symbol": "He",
-        "name": "Helium",
-        "file": "z02.csv"
-    },
-    "Md": {
-        "atomicNumber": 101,
-        "symbol": "Md",
-        "name": "Mendelevium",
-        "file": "z101.csv"
-    },
-    "Mg": {
-        "atomicNumber": 12,
-        "symbol": "Mg",
-        "name": "Magnesium",
-        "file": "z12.csv"
-    },
-    "K": {
-        "atomicNumber": 19,
-        "symbol": "K",
-        "name": "Potassium",
-        "file": "z19.csv"
-    },
-    "Mn": {
-        "atomicNumber": 25,
-        "symbol": "Mn",
-        "name": "Manganese",
-        "file": "z25.csv"
-    },
-    "O": {
-        "atomicNumber": 8,
-        "symbol": "O",
-        "name": "Oxygen",
-        "file": "z08.csv"
-    },
-    "Zr": {
-        "atomicNumber": 40,
-        "symbol": "Zr",
-        "name": "Zirconium",
-        "file": "z40.csv"
-    },
-    "S": {
-        "atomicNumber": 16,
-        "symbol": "S",
-        "name": "Sulfur",
-        "file": "z16.csv"
-    },
-    "W": {
-        "atomicNumber": 74,
-        "symbol": "W",
-        "name": "Tungsten",
-        "file": "z74.csv"
-    },
-    "Zn": {
-        "atomicNumber": 30,
-        "symbol": "Zn",
-        "name": "Zinc",
-        "file": "z30.csv"
-    },
-    "Es": {
-        "atomicNumber": 99,
-        "symbol": "Es",
-        "name": "Einsteinium",
-        "file": "z99.csv"
-    },
-    "Er": {
-        "atomicNumber": 68,
-        "symbol": "Er",
-        "name": "Erbium",
-        "file": "z68.csv"
-    },
-    "Ni": {
-        "atomicNumber": 28,
-        "symbol": "Ni",
-        "name": "Nickel",
-        "file": "z28.csv"
-    },
-    "No": {
-        "atomicNumber": 102,
-        "symbol": "No",
-        "name": "Nobelium",
-        "file": "z102.csv"
-    },
-    "Na": {
-        "atomicNumber": 11,
-        "symbol": "Na",
-        "name": "Sodium",
-        "file": "z11.csv"
-    },
-    "Nb": {
-        "atomicNumber": 41,
-        "symbol": "Nb",
-        "name": "Niobium",
-        "file": "z41.csv"
-    },
-    "Nd": {
-        "atomicNumber": 60,
-        "symbol": "Nd",
-        "name": "Neodymium",
-        "file": "z60.csv"
-    },
-    "Ne": {
-        "atomicNumber": 10,
-        "symbol": "Ne",
-        "name": "Neon",
-        "file": "z10.csv"
-    },
-    "Np": {
-        "atomicNumber": 93,
-        "symbol": "Np",
-        "name": "Neptunium",
-        "file": "z93.csv"
-    },
-    "Fr": {
-        "atomicNumber": 87,
-        "symbol": "Fr",
-        "name": "Francium",
-        "file": "z87.csv"
-    },
-    "Fe": {
-        "atomicNumber": 26,
-        "symbol": "Fe",
-        "name": "Iron",
-        "file": "z26.csv"
-    },
-    "Fm": {
-        "atomicNumber": 100,
-        "symbol": "Fm",
-        "name": "Fermium",
-        "file": "z100.csv"
-    },
-    "B": {
-        "atomicNumber": 5,
-        "symbol": "B",
-        "name": "Boron",
-        "file": "z05.csv"
-    },
-    "F": {
-        "atomicNumber": 9,
-        "symbol": "F",
-        "name": "Fluorine",
-        "file": "z09.csv"
-    },
-    "Sr": {
-        "atomicNumber": 38,
-        "symbol": "Sr",
-        "name": "Strontium",
-        "file": "z38.csv"
-    },
-    "N": {
-        "atomicNumber": 7,
-        "symbol": "N",
-        "name": "Nitrogen",
-        "file": "z07.csv"
-    },
-    "Kr": {
-        "atomicNumber": 36,
-        "symbol": "Kr",
-        "name": "Krypton",
-        "file": "z36.csv"
-    },
-    "Si": {
-        "atomicNumber": 14,
-        "symbol": "Si",
-        "name": "Silicon",
-        "file": "z14.csv",
-        "density": {
-            "unit": "g/cm^3",
-            "value": 2.33
-        }
-    },
-    "R": {
-        "atomicNumber": 44,
-        "symbol": "R",
-        "name": "Ruthenium",
-        "file": "z44.csv"
-    },
-    "Sn": {
-        "atomicNumber": 50,
-        "symbol": "Sn",
-        "name": "Tin",
-        "file": "z50.csv"
-    },
-    "Sm": {
-        "atomicNumber": 62,
-        "symbol": "Sm",
-        "name": "Samarium",
-        "file": "z62.csv"
-    },
-    "V": {
-        "atomicNumber": 23,
-        "symbol": "V",
-        "name": "Vanadium",
-        "file": "z23.csv"
-    },
-    "Sc": {
-        "atomicNumber": 21,
-        "symbol": "Sc",
-        "name": "Scandium",
-        "file": "z21.csv"
-    },
-    "Sb": {
-        "atomicNumber": 51,
-        "symbol": "Sb",
-        "name": "Antimony",
-        "file": "z51.csv"
-    },
-    "Se": {
-        "atomicNumber": 34,
-        "symbol": "Se",
-        "name": "Selenium",
-        "file": "z34.csv"
-    },
-    "Co": {
-        "atomicNumber": 27,
-        "symbol": "Co",
-        "name": "Cobalt",
-        "file": "z27.csv"
-    },
-    "Cm": {
-        "atomicNumber": 96,
-        "symbol": "Cm",
-        "name": "Curium",
-        "file": "z96.csv"
-    },
-    "Cl": {
-        "atomicNumber": 17,
-        "symbol": "Cl",
-        "name": "Chlorine",
-        "file": "z17.csv"
-    },
-    "Ca": {
-        "atomicNumber": 20,
-        "symbol": "Ca",
-        "name": "Calcium",
-        "file": "z20.csv"
-    },
-    "Cf": {
-        "atomicNumber": 98,
-        "symbol": "Cf",
-        "name": "Californium",
-        "file": "z98.csv"
-    },
-    "Ce": {
-        "atomicNumber": 58,
-        "symbol": "Ce",
-        "name": "Cerium",
-        "file": "z58.csv"
-    },
-    "Cd": {
-        "atomicNumber": 48,
-        "symbol": "Cd",
-        "name": "Cadmium",
-        "file": "z48.csv"
-    },
-    "Cs": {
-        "atomicNumber": 55,
-        "symbol": "Cs",
-        "name": "Cesium",
-        "file": "z55.csv"
-    },
-    "Cr": {
-        "atomicNumber": 24,
-        "symbol": "Cr",
-        "name": "Chromium",
-        "file": "z24.csv"
-    },
-    "La": {
-        "atomicNumber": 57,
-        "symbol": "La",
-        "name": "Lanthanum",
-        "file": "z57.csv"
-    },
-    "Li": {
-        "atomicNumber": 3,
-        "symbol": "Li",
-        "name": "Lithium",
-        "file": "z03.csv"
-    },
-    "Tl": {
-        "atomicNumber": 81,
-        "symbol": "Tl",
-        "name": "Thallium",
-        "file": "z81.csv"
-    },
-    "Tm": {
-        "atomicNumber": 69,
-        "symbol": "Tm",
-        "name": "Thulium",
-        "file": "z69.csv"
-    },
-    "Lr": {
-        "atomicNumber": 103,
-        "symbol": "Lr",
-        "name": "Lawrencium",
-        "file": "z103.csv"
-    },
-    "Th": {
-        "atomicNumber": 90,
-        "symbol": "Th",
-        "name": "Thorium",
-        "file": "z90.csv"
-    },
-    "Ti": {
-        "atomicNumber": 22,
-        "symbol": "Ti",
-        "name": "Titanium",
-        "file": "z22.csv"
-    },
-    "Te": {
-        "atomicNumber": 52,
-        "symbol": "Te",
-        "name": "Tellurium",
-        "file": "z52.csv"
-    },
-    "Tb": {
-        "atomicNumber": 65,
-        "symbol": "Tb",
-        "name": "Terbium",
-        "file": "z65.csv"
-    },
-    "Tc": {
-        "atomicNumber": 43,
-        "symbol": "Tc",
-        "name": "Technetium",
-        "file": "z43.csv"
-    },
-    "Ta": {
-        "atomicNumber": 73,
-        "symbol": "Ta",
-        "name": "Tantalum",
-        "file": "z73.csv"
-    },
-    "Yb": {
-        "atomicNumber": 70,
-        "symbol": "Yb",
-        "name": "Ytterbium",
-        "file": "z70.csv"
-    },
-    "Dy": {
-        "atomicNumber": 66,
-        "symbol": "Dy",
-        "name": "Dysprosium",
-        "file": "z66.csv"
-    },
-    "A": {
-        "atomicNumber": 79,
-        "symbol": "A",
-        "name": "Gold",
-        "file": "z79.csv"
-    },
-    "E": {
-        "atomicNumber": 63,
-        "symbol": "E",
-        "name": "Europium",
-        "file": "z63.csv"
-    },
-    "I": {
-        "atomicNumber": 53,
-        "symbol": "I",
-        "name": "Iodine",
-        "file": "z53.csv"
-    },
-    "U": {
-        "atomicNumber": 92,
-        "symbol": "",
-        "name": "Uranium",
-        "file": "z92.csv"
-    },
-    "Y": {
-        "atomicNumber": 39,
-        "symbol": "Y",
-        "name": "Yttrium",
-        "file": "z39.csv"
-    },
-    "Ac": {
-        "atomicNumber": 89,
-        "symbol": "Ac",
-        "name": "Actinium",
-        "file": "z89.csv"
-    },
-    "Ag": {
-        "atomicNumber": 47,
-        "symbol": "Ag",
-        "name": "Silver",
-        "file": "z47.csv"
-    },
-    "Ir": {
-        "atomicNumber": 77,
-        "symbol": "Ir",
-        "name": "Iridium",
-        "file": "z77.csv"
-    },
-    "Am": {
-        "atomicNumber": 95,
-        "symbol": "Am",
-        "name": "Americium",
-        "file": "z95.csv"
-    },
-    "Al": {
-        "atomicNumber": 13,
-        "symbol": "Al",
-        "name": "Aluminum",
-        "file": "z13.csv",
-        "density": {
-            "unit": "g/cm^3",
+            "unit": "g/cm^3", 
             "value": 2.7
-        }
-    },
-    "As": {
-        "atomicNumber": 33,
-        "symbol": "As",
-        "name": "Arsenic",
-        "file": "z33.csv"
-    },
-    "Ar": {
-        "atomicNumber": 18,
-        "symbol": "Ar",
-        "name": "Argon",
-        "file": "z18.csv"
-    },
-    "At": {
-        "atomicNumber": 85,
-        "symbol": "At",
-        "name": "Astatine",
-        "file": "z85.csv"
-    },
-    "In": {
-        "atomicNumber": 49,
-        "symbol": "In",
-        "name": "Indium",
-        "file": "z49.csv"
+        }, 
+        "file": "z13.csv", 
+        "name": "Aluminum", 
+        "symbol": "Al"
+    }, 
+    "am": {
+        "atomicNumber": 95, 
+        "file": "z95.csv", 
+        "name": "Americium", 
+        "symbol": "Am"
+    }, 
+    "ar": {
+        "atomicNumber": 18, 
+        "file": "z18.csv", 
+        "name": "Argon", 
+        "symbol": "Ar"
+    }, 
+    "as": {
+        "atomicNumber": 33, 
+        "file": "z33.csv", 
+        "name": "Arsenic", 
+        "symbol": "As"
+    }, 
+    "at": {
+        "atomicNumber": 85, 
+        "file": "z85.csv", 
+        "name": "Astatine", 
+        "symbol": "At"
+    }, 
+    "b": {
+        "atomicNumber": 5, 
+        "file": "z05.csv", 
+        "name": "Boron", 
+        "symbol": "B"
+    }, 
+    "ba": {
+        "atomicNumber": 56, 
+        "file": "z56.csv", 
+        "name": "Barium", 
+        "symbol": "Ba"
+    }, 
+    "be": {
+        "atomicNumber": 4, 
+        "density": {
+            "unit": "g/cm^3", 
+            "value": 1.848
+        }, 
+        "file": "z04.csv", 
+        "name": "Beryllium", 
+        "symbol": "Be"
+    }, 
+    "bi": {
+        "atomicNumber": 83, 
+        "file": "z83.csv", 
+        "name": "Bismuth", 
+        "symbol": "Bi"
+    }, 
+    "bk": {
+        "atomicNumber": 97, 
+        "file": "z97.csv", 
+        "name": "Berkelium", 
+        "symbol": "Bk"
+    }, 
+    "br": {
+        "atomicNumber": 35, 
+        "file": "z35.csv", 
+        "name": "Bromine", 
+        "symbol": "Br"
+    }, 
+    "c": {
+        "atomicNumber": 29, 
+        "file": "z29.csv", 
+        "name": "Copper", 
+        "symbol": "C"
+    }, 
+    "ca": {
+        "atomicNumber": 20, 
+        "file": "z20.csv", 
+        "name": "Calcium", 
+        "symbol": "Ca"
+    }, 
+    "cd": {
+        "atomicNumber": 48, 
+        "file": "z48.csv", 
+        "name": "Cadmium", 
+        "symbol": "Cd"
+    }, 
+    "ce": {
+        "atomicNumber": 58, 
+        "file": "z58.csv", 
+        "name": "Cerium", 
+        "symbol": "Ce"
+    }, 
+    "cf": {
+        "atomicNumber": 98, 
+        "file": "z98.csv", 
+        "name": "Californium", 
+        "symbol": "Cf"
+    }, 
+    "cl": {
+        "atomicNumber": 17, 
+        "file": "z17.csv", 
+        "name": "Chlorine", 
+        "symbol": "Cl"
+    }, 
+    "cm": {
+        "atomicNumber": 96, 
+        "file": "z96.csv", 
+        "name": "Curium", 
+        "symbol": "Cm"
+    }, 
+    "co": {
+        "atomicNumber": 27, 
+        "file": "z27.csv", 
+        "name": "Cobalt", 
+        "symbol": "Co"
+    }, 
+    "cr": {
+        "atomicNumber": 24, 
+        "file": "z24.csv", 
+        "name": "Chromium", 
+        "symbol": "Cr"
+    }, 
+    "cs": {
+        "atomicNumber": 55, 
+        "file": "z55.csv", 
+        "name": "Cesium", 
+        "symbol": "Cs"
+    }, 
+    "dy": {
+        "atomicNumber": 66, 
+        "file": "z66.csv", 
+        "name": "Dysprosium", 
+        "symbol": "Dy"
+    }, 
+    "e": {
+        "atomicNumber": 63, 
+        "file": "z63.csv", 
+        "name": "Europium", 
+        "symbol": "E"
+    }, 
+    "er": {
+        "atomicNumber": 68, 
+        "file": "z68.csv", 
+        "name": "Erbium", 
+        "symbol": "Er"
+    }, 
+    "es": {
+        "atomicNumber": 99, 
+        "file": "z99.csv", 
+        "name": "Einsteinium", 
+        "symbol": "Es"
+    }, 
+    "f": {
+        "atomicNumber": 9, 
+        "file": "z09.csv", 
+        "name": "Fluorine", 
+        "symbol": "F"
+    }, 
+    "fe": {
+        "atomicNumber": 26, 
+        "file": "z26.csv", 
+        "name": "Iron", 
+        "symbol": "Fe"
+    }, 
+    "fm": {
+        "atomicNumber": 100, 
+        "file": "z100.csv", 
+        "name": "Fermium", 
+        "symbol": "Fm"
+    }, 
+    "fr": {
+        "atomicNumber": 87, 
+        "file": "z87.csv", 
+        "name": "Francium", 
+        "symbol": "Fr"
+    }, 
+    "ga": {
+        "atomicNumber": 31, 
+        "file": "z31.csv", 
+        "name": "Gallium", 
+        "symbol": "Ga"
+    }, 
+    "gd": {
+        "atomicNumber": 64, 
+        "file": "z64.csv", 
+        "name": "Gadolinium", 
+        "symbol": "Gd"
+    }, 
+    "ge": {
+        "atomicNumber": 32, 
+        "density": {
+            "unit": "g/cm^3", 
+            "value": 5.33
+        }, 
+        "file": "z32.csv", 
+        "name": "Germanium", 
+        "symbol": "Ge"
+    }, 
+    "h": {
+        "atomicNumber": 1, 
+        "file": "z01.csv", 
+        "name": "Hydrogen", 
+        "symbol": "H"
+    }, 
+    "he": {
+        "atomicNumber": 2, 
+        "file": "z02.csv", 
+        "name": "Helium", 
+        "symbol": "He"
+    }, 
+    "hf": {
+        "atomicNumber": 72, 
+        "file": "z72.csv", 
+        "name": "Hafnium", 
+        "symbol": "Hf"
+    }, 
+    "hg": {
+        "atomicNumber": 80, 
+        "file": "z80.csv", 
+        "name": "Mercury", 
+        "symbol": "Hg"
+    }, 
+    "ho": {
+        "atomicNumber": 67, 
+        "file": "z67.csv", 
+        "name": "Holmium", 
+        "symbol": "Ho"
+    }, 
+    "i": {
+        "atomicNumber": 53, 
+        "file": "z53.csv", 
+        "name": "Iodine", 
+        "symbol": "I"
+    }, 
+    "in": {
+        "atomicNumber": 49, 
+        "file": "z49.csv", 
+        "name": "Indium", 
+        "symbol": "In"
+    }, 
+    "ir": {
+        "atomicNumber": 77, 
+        "file": "z77.csv", 
+        "name": "Iridium", 
+        "symbol": "Ir"
+    }, 
+    "k": {
+        "atomicNumber": 19, 
+        "file": "z19.csv", 
+        "name": "Potassium", 
+        "symbol": "K"
+    }, 
+    "kr": {
+        "atomicNumber": 36, 
+        "file": "z36.csv", 
+        "name": "Krypton", 
+        "symbol": "Kr"
+    }, 
+    "l": {
+        "atomicNumber": 71, 
+        "file": "z71.csv", 
+        "name": "Lutetium", 
+        "symbol": "L"
+    }, 
+    "la": {
+        "atomicNumber": 57, 
+        "file": "z57.csv", 
+        "name": "Lanthanum", 
+        "symbol": "La"
+    }, 
+    "li": {
+        "atomicNumber": 3, 
+        "file": "z03.csv", 
+        "name": "Lithium", 
+        "symbol": "Li"
+    }, 
+    "lr": {
+        "atomicNumber": 103, 
+        "file": "z103.csv", 
+        "name": "Lawrencium", 
+        "symbol": "Lr"
+    }, 
+    "md": {
+        "atomicNumber": 101, 
+        "file": "z101.csv", 
+        "name": "Mendelevium", 
+        "symbol": "Md"
+    }, 
+    "mg": {
+        "atomicNumber": 12, 
+        "file": "z12.csv", 
+        "name": "Magnesium", 
+        "symbol": "Mg"
+    }, 
+    "mn": {
+        "atomicNumber": 25, 
+        "file": "z25.csv", 
+        "name": "Manganese", 
+        "symbol": "Mn"
+    }, 
+    "mo": {
+        "atomicNumber": 42, 
+        "file": "z42.csv", 
+        "name": "Molybdenum", 
+        "symbol": "Mo"
+    }, 
+    "n": {
+        "atomicNumber": 7, 
+        "file": "z07.csv", 
+        "name": "Nitrogen", 
+        "symbol": "N"
+    }, 
+    "na": {
+        "atomicNumber": 11, 
+        "file": "z11.csv", 
+        "name": "Sodium", 
+        "symbol": "Na"
+    }, 
+    "nb": {
+        "atomicNumber": 41, 
+        "file": "z41.csv", 
+        "name": "Niobium", 
+        "symbol": "Nb"
+    }, 
+    "nd": {
+        "atomicNumber": 60, 
+        "file": "z60.csv", 
+        "name": "Neodymium", 
+        "symbol": "Nd"
+    }, 
+    "ne": {
+        "atomicNumber": 10, 
+        "file": "z10.csv", 
+        "name": "Neon", 
+        "symbol": "Ne"
+    }, 
+    "ni": {
+        "atomicNumber": 28, 
+        "file": "z28.csv", 
+        "name": "Nickel", 
+        "symbol": "Ni"
+    }, 
+    "no": {
+        "atomicNumber": 102, 
+        "file": "z102.csv", 
+        "name": "Nobelium", 
+        "symbol": "No"
+    }, 
+    "np": {
+        "atomicNumber": 93, 
+        "file": "z93.csv", 
+        "name": "Neptunium", 
+        "symbol": "Np"
+    }, 
+    "o": {
+        "atomicNumber": 8, 
+        "file": "z08.csv", 
+        "name": "Oxygen", 
+        "symbol": "O"
+    }, 
+    "os": {
+        "atomicNumber": 76, 
+        "file": "z76.csv", 
+        "name": "Osmium", 
+        "symbol": "Os"
+    }, 
+    "p": {
+        "atomicNumber": 94, 
+        "file": "z94.csv", 
+        "name": "Plutonium", 
+        "symbol": "P"
+    }, 
+    "pa": {
+        "atomicNumber": 91, 
+        "file": "z91.csv", 
+        "name": "Protactinium", 
+        "symbol": "Pa"
+    }, 
+    "pb": {
+        "atomicNumber": 82, 
+        "file": "z82.csv", 
+        "name": "Lead", 
+        "symbol": "Pb"
+    }, 
+    "pd": {
+        "atomicNumber": 46, 
+        "file": "z46.csv", 
+        "name": "Palladium", 
+        "symbol": "Pd"
+    }, 
+    "pm": {
+        "atomicNumber": 61, 
+        "file": "z61.csv", 
+        "name": "Promethium", 
+        "symbol": "Pm"
+    }, 
+    "po": {
+        "atomicNumber": 84, 
+        "file": "z84.csv", 
+        "name": "Polonium", 
+        "symbol": "Po"
+    }, 
+    "pr": {
+        "atomicNumber": 59, 
+        "file": "z59.csv", 
+        "name": "Praseodymium", 
+        "symbol": "Pr"
+    }, 
+    "pt": {
+        "atomicNumber": 78, 
+        "file": "z78.csv", 
+        "name": "Platinum", 
+        "symbol": "Pt"
+    }, 
+    "r": {
+        "atomicNumber": 44, 
+        "file": "z44.csv", 
+        "name": "Ruthenium", 
+        "symbol": "R"
+    }, 
+    "ra": {
+        "atomicNumber": 88, 
+        "file": "z88.csv", 
+        "name": "Radium", 
+        "symbol": "Ra"
+    }, 
+    "rb": {
+        "atomicNumber": 37, 
+        "file": "z37.csv", 
+        "name": "Rubidium", 
+        "symbol": "Rb"
+    }, 
+    "re": {
+        "atomicNumber": 75, 
+        "file": "z75.csv", 
+        "name": "Rhenium", 
+        "symbol": "Re"
+    }, 
+    "rf": {
+        "atomicNumber": 104, 
+        "file": "z104.csv", 
+        "name": "Rutherfordium", 
+        "symbol": "Rf"
+    }, 
+    "rh": {
+        "atomicNumber": 45, 
+        "file": "z45.csv", 
+        "name": "Rhodium", 
+        "symbol": "Rh"
+    }, 
+    "rn": {
+        "atomicNumber": 86, 
+        "file": "z86.csv", 
+        "name": "Radon", 
+        "symbol": "Rn"
+    }, 
+    "s": {
+        "atomicNumber": 16, 
+        "file": "z16.csv", 
+        "name": "Sulfur", 
+        "symbol": "S"
+    }, 
+    "sb": {
+        "atomicNumber": 51, 
+        "file": "z51.csv", 
+        "name": "Antimony", 
+        "symbol": "Sb"
+    }, 
+    "sc": {
+        "atomicNumber": 21, 
+        "file": "z21.csv", 
+        "name": "Scandium", 
+        "symbol": "Sc"
+    }, 
+    "se": {
+        "atomicNumber": 34, 
+        "file": "z34.csv", 
+        "name": "Selenium", 
+        "symbol": "Se"
+    }, 
+    "si": {
+        "atomicNumber": 14, 
+        "density": {
+            "unit": "g/cm^3", 
+            "value": 2.33
+        }, 
+        "file": "z14.csv", 
+        "name": "Silicon", 
+        "symbol": "Si"
+    }, 
+    "sm": {
+        "atomicNumber": 62, 
+        "file": "z62.csv", 
+        "name": "Samarium", 
+        "symbol": "Sm"
+    }, 
+    "sn": {
+        "atomicNumber": 50, 
+        "file": "z50.csv", 
+        "name": "Tin", 
+        "symbol": "Sn"
+    }, 
+    "sr": {
+        "atomicNumber": 38, 
+        "file": "z38.csv", 
+        "name": "Strontium", 
+        "symbol": "Sr"
+    }, 
+    "ta": {
+        "atomicNumber": 73, 
+        "file": "z73.csv", 
+        "name": "Tantalum", 
+        "symbol": "Ta"
+    }, 
+    "tb": {
+        "atomicNumber": 65, 
+        "file": "z65.csv", 
+        "name": "Terbium", 
+        "symbol": "Tb"
+    }, 
+    "tc": {
+        "atomicNumber": 43, 
+        "file": "z43.csv", 
+        "name": "Technetium", 
+        "symbol": "Tc"
+    }, 
+    "te": {
+        "atomicNumber": 52, 
+        "file": "z52.csv", 
+        "name": "Tellurium", 
+        "symbol": "Te"
+    }, 
+    "th": {
+        "atomicNumber": 90, 
+        "file": "z90.csv", 
+        "name": "Thorium", 
+        "symbol": "Th"
+    }, 
+    "ti": {
+        "atomicNumber": 22, 
+        "file": "z22.csv", 
+        "name": "Titanium", 
+        "symbol": "Ti"
+    }, 
+    "tl": {
+        "atomicNumber": 81, 
+        "file": "z81.csv", 
+        "name": "Thallium", 
+        "symbol": "Tl"
+    }, 
+    "tm": {
+        "atomicNumber": 69, 
+        "file": "z69.csv", 
+        "name": "Thulium", 
+        "symbol": "Tm"
+    }, 
+    "u": {
+        "atomicNumber": 92, 
+        "file": "z92.csv", 
+        "name": "Uranium", 
+        "symbol": ""
+    }, 
+    "v": {
+        "atomicNumber": 23, 
+        "file": "z23.csv", 
+        "name": "Vanadium", 
+        "symbol": "V"
+    }, 
+    "w": {
+        "atomicNumber": 74, 
+        "file": "z74.csv", 
+        "name": "Tungsten", 
+        "symbol": "W"
+    }, 
+    "xe": {
+        "atomicNumber": 54, 
+        "file": "z54.csv", 
+        "name": "Xenon", 
+        "symbol": "Xe"
+    }, 
+    "y": {
+        "atomicNumber": 39, 
+        "file": "z39.csv", 
+        "name": "Yttrium", 
+        "symbol": "Y"
+    }, 
+    "yb": {
+        "atomicNumber": 70, 
+        "file": "z70.csv", 
+        "name": "Ytterbium", 
+        "symbol": "Yb"
+    }, 
+    "zn": {
+        "atomicNumber": 30, 
+        "file": "z30.csv", 
+        "name": "Zinc", 
+        "symbol": "Zn"
+    }, 
+    "zr": {
+        "atomicNumber": 40, 
+        "file": "z40.csv", 
+        "name": "Zirconium", 
+        "symbol": "Zr"
     }
 }

@@ -41,9 +41,9 @@ class Material(object):
 
     def __init__(self, material, thickness, density=None):
         self.name = material
-        self.long_name = _get_long_name(material)
         self.thickness = thickness
         self.mass_attenuation_coefficient = Mass_attenuation_coefficient(material)
+        self.long_name = self.mass_attenuation_coefficient.long_name
         if density is None:
             self.density = self.mass_attenuation_coefficient.density
         else:
@@ -83,17 +83,22 @@ class Mass_attenuation_coefficient(object):
 
     """
     def __init__(self, material):
-        self.name = material
-        datafile_path = os.path.join(_data_directory, rontgen.material_list[material]['file'])
+        # find the material in our list
+        mat = rontgen.material_list[material.lower()]
+        self.name = mat['symbol']
+        self.long_name = mat['name']
+        datafile_path = os.path.join(_data_directory, mat['file'])
         data = np.loadtxt(datafile_path, delimiter=',')
-        self.density = u.Quantity(rontgen.material_list[material]['density']['value'], rontgen.material_list[material]['density']['unit'])
-        self.energy = u.Quantity(data[:,0] * 1000, 'keV')
-        self.data = u.Quantity(data[:,1], 'cm^2/g')
+        self.density = u.Quantity(mat['density']['value'],
+                                  mat['density']['unit'])
+        self.energy = u.Quantity(data[:, 0] * 1000, 'keV')
+        self.data = u.Quantity(data[:, 1], 'cm^2/g')
 
         data_energy_kev = np.log10(self.energy.value)
         data_attenuation_coeff = np.log10(self.data.value)
         self._f = interpolate.interp1d(data_energy_kev, data_attenuation_coeff, bounds_error=False, fill_value=0.0)
         self.func = lambda x: u.Quantity(10 ** self._f(np.log10(x.to('keV').value)), 'cm^2/g')
+
 
 def _get_long_name(material):
     return rontgen.material_list.get(material)['name']
