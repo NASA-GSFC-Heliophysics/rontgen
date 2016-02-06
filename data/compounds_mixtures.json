@@ -17,13 +17,251 @@
         },
         "file": "mylar.csv"
     },
-    "myylar": {
+    "mylar": {
         "symbol": "Mylar",
-        "name": "Mylar",
+        "name": "Polyethylene Terephthalate, \"Mylar\"",
         "density": {
             "value": 1.379,
             "unit": "g/cm^3"
         },
         "file": "mylar.csv"
+    },
+      "a150": {
+        "file": "a150.csv",
+        "name": "A-150 Tissue-Equivalent Plastic",
+        "symbol": "a150"
+    },
+    "adipose": {
+        "file": "adipose.csv",
+        "name": "Adipose Tissue",
+        "symbol": "adipose"
+    },
+    "air": {
+        "file": "air.csv",
+        "name": "Air, Dry",
+        "symbol": "air",
+        "density": {
+            "value": 0.0012041,
+            "unit": "g/cm^3"
+        },
+    },
+    "alanine": {
+        "file": "alanine.csv",
+        "name": "Alanine",
+        "symbol": "alanine"
+    },
+    "b100": {
+        "file": "b100.csv",
+        "name": "B-100 Bone-Equivalent Plastic",
+        "symbol": "b100"
+    },
+    "bakelite": {
+        "file": "bakelite.csv",
+        "name": "Bakelite",
+        "symbol": "bakelite"
+    },
+    "blood": {
+        "file": "blood.csv",
+        "name": "Blood, Whole",
+        "symbol": "blood"
+    },
+    "bone": {
+        "file": "bone.csv",
+        "name": "Bone, Cortical",
+        "symbol": "bone"
+    },
+    "brain": {
+        "file": "brain.csv",
+        "name": "Brain, Grey/White Matter",
+        "symbol": "brain"
+    },
+    "breast": {
+        "file": "breast.csv",
+        "name": "Breast Tissue",
+        "symbol": "breast"
+    },
+    "c552": {
+        "file": "c552.csv",
+        "name": "C-552 Air-equivalent Plastic",
+        "symbol": "c552"
+    },
+    "calcium": {
+        "file": "calcium.csv",
+        "name": "Calcium Sulfate",
+        "symbol": "calcium"
+    },
+    "ceric": {
+        "file": "ceric.csv",
+        "name": "15 mmol L-1 Ceric Ammonium Sulfate Solution",
+        "symbol": "ceric"
+    },
+    "cesium": {
+        "file": "cesium.csv",
+        "name": "Cesium Iodide",
+        "symbol": "cesium"
+    },
+    "concrete": {
+        "file": "concrete.csv",
+        "name": "Concrete, Ordinary",
+        "symbol": "concrete"
+    },
+    "concreteba": {
+        "file": "concreteba.csv",
+        "name": "Concrete, Barite",
+        "symbol": "concreteba"
+    },
+    "eye": {
+        "file": "eye.csv",
+        "name": "Eye Lens",
+        "symbol": "eye"
+    },
+    "fluoride": {
+        "file": "fluoride.csv",
+        "name": "Calcium Fluoride",
+        "symbol": "fluoride"
+    },
+    "fricke": {
+        "file": "fricke.csv",
+        "name": "Ferrous Sulfate, Standard Fricke",
+        "symbol": "fricke"
+    },
+    "gadolinium": {
+        "file": "gadolinium.csv",
+        "name": "Gadolinium Oxysulfide",
+        "symbol": "gadolinium"
+    },
+    "gafchromic": {
+        "file": "gafchromic.csv",
+        "name": "Gafchromic Sensor",
+        "symbol": "gafchromic"
+    },
+    "gallium": {
+        "file": "gallium.csv",
+        "name": "Gallium Arsenide",
+        "symbol": "gallium"
+    },
+    "glass": {
+        "file": "glass.csv",
+        "name": "Glass, Lead",
+        "symbol": "glass"
+    },
+    "kodak": {
+        "file": "kodak.csv",
+        "name": "Photographic Emulsion, Kodak Type AA",
+        "symbol": "kodak"
+    },
+    "lithium": {
+        "file": "lithium.csv",
+        "name": "Lithium Tetraborate",
+        "symbol": "lithium"
+    },
+    "lithiumflu": {
+        "file": "lithiumflu.csv",
+        "name": "Lithium Fluoride",
+        "symbol": "lithiumflu"
+    },
+    "lung": {
+        "file": "lung.csv",
+        "name": "Lung Tissue",
+        "symbol": "lung"
+    },
+    "magnesium": {
+        "file": "magnesium.csv",
+        "name": "Magnesium Tetroborate",
+        "symbol": "magnesium"
+    },
+    "mercuric": {
+        "file": "mercuric.csv",
+        "name": "Mercuric Iodide",
+        "symbol": "mercuric"
+    },
+    "muscle": {
+        "file": "muscle.csv",
+        "name": "Muscle, Skeletal",
+        "symbol": "muscle"
+    },
+    "nylonfilm": {
+        "file": "nylonfilm.csv",
+        "name": "Radiochromic Dye Film, Nylon Base",
+        "symbol": "nylonfilm"
+    },
+    "ovary": {
+        "file": "ovary.csv",
+        "name": "Ovary",
+        "symbol": "ovary"
+    },
+    "photoemul": {
+        "file": "photoemul.csv",
+        "name": "Photographic Emulsion, Standard Nuclear",
+        "symbol": "photoemul"
+    },
+    "pmma": {
+        "file": "pmma.csv",
+        "name": "Polymethyl Methacrylate",
+        "symbol": "pmma"
+    },
+    "polyethylene": {
+        "file": "polyethylene.csv",
+        "name": "Polyethylene",
+        "symbol": "polyethylene"
+    },
+    "polystyrene": {
+        "file": "polystyrene.csv",
+        "name": "Polystyrene",
+        "symbol": "polystyrene"
+    },
+    "polyvinyl": {
+        "file": "polyvinyl.csv",
+        "name": "Polyvinyl Chloride",
+        "symbol": "polyvinyl"
+    },
+    "pyrex": {
+        "file": "pyrex.csv",
+        "name": "Glass, Borosilicate \"Pyrex\"",
+        "symbol": "pyrex"
+    },
+    "teflon": {
+        "file": "teflon.csv",
+        "name": "Polytetrafluoroethylene, \"Teflon\"",
+        "symbol": "teflon"
+    },
+    "temethane": {
+        "file": "temethane.csv",
+        "name": "Tissue-Equivalent Gas, Methane Based",
+        "symbol": "temethane"
+    },
+    "tepropane": {
+        "file": "tepropane.csv",
+        "name": "Tissue-Equivalent Gas, Propane Based",
+        "symbol": "tepropane"
+    },
+    "testis": {
+        "file": "testis.csv",
+        "name": "Testis",
+        "symbol": "testis"
+    },
+    "tissue": {
+        "file": "tissue.csv",
+        "name": "Tissue, Soft",
+        "symbol": "tissue"
+    },
+    "tissue4": {
+        "file": "tissue4.csv",
+        "name": "Tissue, Soft (ICRU Four-Component)",
+        "symbol": "tissue4"
+    },
+    "vinyl": {
+        "file": "vinyl.csv",
+        "name": "Plastic Scintillator, Vinyltoluene",
+        "symbol": "vinyl"
+    },
+    "water": {
+        "file": "water.csv",
+        "name": "Water, Liquid",
+        "symbol": "water",
+        "density": {
+            "value": 1.0,
+            "unit": "g/cm^3"
+        }
     }
 }
