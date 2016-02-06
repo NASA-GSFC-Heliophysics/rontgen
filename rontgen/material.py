@@ -28,6 +28,8 @@ class Material(object):
         A string representing a material (e.g. cdte, be, mylar, si)
     thickness : `astropy.units.Quantity`
         The thickness of the material in the optical path.
+    density : `astropy.units.Quantity`
+        The density of the material. If None use default values.
 
     Examples
     --------
@@ -37,16 +39,21 @@ class Material(object):
     >>> thermal_blankets = Material('mylar', 0.5 * u.mm)
     """
 
-    def __init__(self, material, thickness):
+    def __init__(self, material, thickness, density=None):
         self.name = material
         self.long_name = _get_long_name(material)
         self.thickness = thickness
         self.mass_attenuation_coefficient = Mass_attenuation_coefficient(material)
-        self.density = self.mass_attenuation_coefficient.density
+        if density is None:
+            self.density = self.mass_attenuation_coefficient.density
+        else:
+            self.density = density
 
     def __repr__(self):
         """Returns a human-readable representation."""
-        return '<Material ' + str(self.name) + ' (' + str(self.long_name) + ') ' + str(self.thickness) + ' ' + str(self.density) + '>'
+        txt = '<Material ' + str(self.name) + ' (' + str(self.long_name) + ') '
+        txt += str(self.thickness) + ' ' + str(self.density) + '>'
+        return txt
 
     def transmission(self, energy):
         """Provide the transmission fraction (0 to 1).
@@ -56,8 +63,7 @@ class Material(object):
         energy : `astropy.units.Quantity`
             An array of energies in keV
         """
-        energy_kev = energy.to('keV').value
-        coefficients = self.mass_attenuation_coefficient.func(energy_kev) * u.cm ** 2 / u.gram
+        coefficients = self.mass_attenuation_coefficient.func(energy)
         transmission = np.exp(- coefficients * self.density * self.thickness)
         return transmission
 
@@ -79,13 +85,15 @@ class Mass_attenuation_coefficient(object):
     def __init__(self, material):
         self.name = material
         datafile_path = os.path.join(_data_directory, rontgen.material_list[material]['file'])
-        self.data = np.loadtxt(datafile_path, delimiter=',')
+        data = np.loadtxt(datafile_path, delimiter=',')
         self.density = u.Quantity(rontgen.material_list[material]['density']['value'], rontgen.material_list[material]['density']['unit'])
+        self.energy = u.Quantity(data[:,0] * 1000, 'keV')
+        self.data = u.Quantity(data[:,1], 'cm^2/g')
 
-        data_energy_kev = np.log10(self.data[0,:] * 1000)
-        data_attenuation_coeff = np.log10(self.data[1,:])
+        data_energy_kev = np.log10(self.energy.value)
+        data_attenuation_coeff = np.log10(self.data.value)
         self._f = interpolate.interp1d(data_energy_kev, data_attenuation_coeff, bounds_error=False, fill_value=0.0)
-        self.func = lambda x: 10 ** self._f(np.log10(x))
+        self.func = lambda x: u.Quantity(10 ** self._f(np.log10(x.to('keV').value)), 'cm^2/g')
 
 def _get_long_name(material):
     return rontgen.material_list.get(material)['name']
