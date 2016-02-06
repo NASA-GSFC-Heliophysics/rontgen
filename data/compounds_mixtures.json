@@ -1,5 +1,5 @@
 {
-    "CdTe": {
+    "cdte": {
         "symbol": "CdTe",
         "name": "Cadmium Telluride",
         "density": {
@@ -8,7 +8,7 @@
         },
         "file": "telluride.csv"
     },
-    "CZT": {
+    "czt": {
         "symbol": "CZT",
         "name": "Cadmium Zinc Telluride",
         "density": {
@@ -17,7 +17,7 @@
         },
         "file": "mylar.csv"
     },
-    "Mylar": {
+    "myylar": {
         "symbol": "Mylar",
         "name": "Mylar",
         "density": {
