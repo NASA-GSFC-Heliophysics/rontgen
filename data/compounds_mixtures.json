@@ -43,7 +43,7 @@
         "density": {
             "value": 0.0012041,
             "unit": "g/cm^3"
-        },
+        }
     },
     "alanine": {
         "file": "alanine.csv",
@@ -85,7 +85,7 @@
         "name": "C-552 Air-equivalent Plastic",
         "symbol": "c552"
     },
-    "calcium": {
+    "calcium sulfate": {
         "file": "calcium.csv",
         "name": "Calcium Sulfate",
         "symbol": "calcium"
@@ -95,10 +95,14 @@
         "name": "15 mmol L-1 Ceric Ammonium Sulfate Solution",
         "symbol": "ceric"
     },
-    "cesium": {
+    "cesium iodide": {
         "file": "cesium.csv",
         "name": "Cesium Iodide",
-        "symbol": "cesium"
+        "symbol": "cesium",
+        "density": {
+            "value": 4.51,
+            "unit": "g/cm^3"
+        }
     },
     "concrete": {
         "file": "concrete.csv",
@@ -135,10 +139,14 @@
         "name": "Gafchromic Sensor",
         "symbol": "gafchromic"
     },
-    "gallium": {
+    "gallium arsenide": {
         "file": "gallium.csv",
         "name": "Gallium Arsenide",
-        "symbol": "gallium"
+        "symbol": "gallium arsenide",
+        "density": {
+            "value": 5.316,
+            "unit": "g/cm^3"
+        }
     },
     "glass": {
         "file": "glass.csv",
@@ -155,10 +163,10 @@
         "name": "Lithium Tetraborate",
         "symbol": "lithium"
     },
-    "lithiumflu": {
+    "lithium fluoride": {
         "file": "lithiumflu.csv",
         "name": "Lithium Fluoride",
-        "symbol": "lithiumflu"
+        "symbol": "lithium fluoride"
     },
     "lung": {
         "file": "lung.csv",
@@ -223,7 +231,11 @@
     "teflon": {
         "file": "teflon.csv",
         "name": "Polytetrafluoroethylene, \"Teflon\"",
-        "symbol": "teflon"
+        "symbol": "teflon",
+        "density":{
+            "value": 2.2,
+            "unit": "g/cm^3"
+        }
     },
     "temethane": {
         "file": "temethane.csv",
