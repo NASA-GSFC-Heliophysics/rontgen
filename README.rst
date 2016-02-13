@@ -1,10 +1,15 @@
-# Rontgen
+========
+Overview
+========
+
 A Python package for the quantitative analysis of the interaction of energetic photons with matter (x-rays and gamma-rays). This package is named after one of the discoverers
 of X-rays, [Wilhelm Röntgen](https://en.wikipedia.org/wiki/Wilhelm_Röntgen), who also
 gave these energetic photons their name.
 
-# Data Sources
-The data used in this package come from the following sources
+------------
+Data Sources
+------------
+The data used in this package come from the following sources.
 
 | Data Source | Author(s) | Institution |
 |-------------|-----------|-------------|

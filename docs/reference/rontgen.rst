@@ -1,5 +1,5 @@
-nameless
-========
+rontgen
+=======
 
-.. automodule:: nameless
+.. automodule:: rontgen
     :members:
