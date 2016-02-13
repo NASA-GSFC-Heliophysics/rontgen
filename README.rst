@@ -13,7 +13,7 @@ Overview
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
 
 .. |docs| image:: https://readthedocs.org/projects/rontgen/badge/?style=flat
-    :target: https://readthedocs.org/projects/python-nameless
+    :target: https://readthedocs.org/projects/rontgen/
     :alt: Documentation Status
 
 .. |version| image:: https://img.shields.io/pypi/v/rontgen.svg?style=flat
