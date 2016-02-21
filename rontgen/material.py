@@ -24,7 +24,7 @@ class Material(object):
 
     Parameters
     ----------
-    material : str
+    material_str : str
         A string representing a material (e.g. cdte, be, mylar, si)
     thickness : `astropy.units.Quantity`
         The thickness of the material in the optical path.
@@ -39,10 +39,10 @@ class Material(object):
     >>> thermal_blankets = Material('mylar', 0.5 * u.mm)
     """
 
-    def __init__(self, material, thickness, density=None):
-        self.name = material
+    def __init__(self, material_str, thickness, density=None):
+        self.name = material_str
         self.thickness = thickness
-        self.mass_attenuation_coefficient = Mass_attenuation_coefficient(material)
+        self.mass_attenuation_coefficient = Mass_attenuation_coefficient(material_str)
         self.long_name = self.mass_attenuation_coefficient.long_name
         if density is None:
             self.density = self.mass_attenuation_coefficient.density
@@ -76,6 +76,25 @@ class Material(object):
             An array of energies in keV.
         """
         return 1 - self.transmission(energy)
+
+
+class Compound(object):
+    """An object which provides the properties of a material in x-rays
+
+    Parameters
+    ----------
+    materials : list
+        A list of Material objects
+
+    Examples
+    --------
+    >>> from rontgen.material import Material
+    >>> import astropy.units as u
+    >>> detector = Material('cdte', 500 * u.um)
+    >>> thermal_blankets = Material('mylar', 0.5 * u.mm)
+    """
+
+    def __init__(self, materials):
 
 
 class Mass_attenuation_coefficient(object):
