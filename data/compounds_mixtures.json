@@ -6,7 +6,7 @@
             "value": 6.2,
             "unit": "g/cm^3"
         },
-        "file": "compounds_mixtures/telluride.csv"
+        "file": "compounds_mixtures/cadtel.csv"
     },
     "czt": {
         "symbol": "CZT",
@@ -29,12 +29,20 @@
       "a150": {
         "file": "compounds_mixtures/a150.csv",
         "name": "A-150 Tissue-Equivalent Plastic",
-        "symbol": "a150"
+        "symbol": "a150",
+        "density": {
+            "value": 1.127,
+            "unit": "g/cm^3"
+        },
     },
     "adipose": {
         "file": "compounds_mixtures/adipose.csv",
         "name": "Adipose Tissue",
-        "symbol": "adipose"
+        "symbol": "adipose",
+        "density": {
+            "value": 0.9,
+            "unit": "g/cm^3"
+        }
     },
     "air": {
         "file": "compounds_mixtures/air.csv",
@@ -48,27 +56,47 @@
     "alanine": {
         "file": "compounds_mixtures/alanine.csv",
         "name": "Alanine",
-        "symbol": "alanine"
+        "symbol": "alanine",
+        "density": {
+            "value": 1.42,
+            "unit": "g/cm^3"
+        }
     },
     "b100": {
         "file": "compounds_mixtures/b100.csv",
         "name": "B-100 Bone-Equivalent Plastic",
-        "symbol": "b100"
+        "symbol": "b100",
+        "density": {
+            "value": 1.45,
+            "unit": "g/cm^3"
+        }
     },
     "bakelite": {
         "file": "compounds_mixtures/bakelite.csv",
         "name": "Bakelite",
-        "symbol": "bakelite"
+        "symbol": "bakelite",
+        "density": {
+            "value": 1.36,
+            "unit": "g/cm^3"
+        }
     },
     "blood": {
         "file": "compounds_mixtures/blood.csv",
         "name": "Blood, Whole",
-        "symbol": "blood"
+        "symbol": "blood",
+        "density": {
+            "value": 1.025,
+            "unit": "g/cm^3"
+        }
     },
     "bone": {
         "file": "compounds_mixtures/bone.csv",
         "name": "Bone, Cortical",
-        "symbol": "bone"
+        "symbol": "bone",
+        "density": {
+            "value": 3.6,
+            "unit": "g/cm^3"
+        }
     },
     "brain": {
         "file": "compounds_mixtures/brain.csv",
@@ -86,9 +114,9 @@
         "symbol": "c552"
     },
     "calcium sulfate": {
-        "file": "compounds_mixtures/calcium.csv",
+        "file": "compounds_mixtures/calcium_sulfate.csv",
         "name": "Calcium Sulfate",
-        "symbol": "calcium"
+        "symbol": "calcium sulfate"
     },
     "ceric": {
         "file": "compounds_mixtures/ceric.csv",
@@ -96,9 +124,9 @@
         "symbol": "ceric"
     },
     "cesium iodide": {
-        "file": "compounds_mixtures/cesium.csv",
+        "file": "compounds_mixtures/cesium_iodide.csv",
         "name": "Cesium Iodide",
-        "symbol": "cesium",
+        "symbol": "cesium iodide",
         "density": {
             "value": 4.51,
             "unit": "g/cm^3"
@@ -107,22 +135,38 @@
     "concrete": {
         "file": "compounds_mixtures/concrete.csv",
         "name": "Concrete, Ordinary",
-        "symbol": "concrete"
+        "symbol": "concrete",
+        "density": {
+            "value": 2.4,
+            "unit": "g/cm^3"
+        }
     },
     "concreteba": {
-        "file": "compounds_mixtures/concreteba.csv",
+        "file": "compounds_mixtures/concrete_barite.csv",
         "name": "Concrete, Barite",
-        "symbol": "concreteba"
+        "symbol": "concrete barite"
+        "density": {
+            "value": 3.0,
+            "unit": "g/cm^3"
+        }
     },
     "eye": {
         "file": "compounds_mixtures/eye.csv",
         "name": "Eye Lens",
-        "symbol": "eye"
+        "symbol": "eye",
+        "density": {
+            "value": 1.0,
+            "unit": "g/cm^3"
+        }
     },
-    "fluoride": {
-        "file": "compounds_mixtures/fluoride.csv",
+    "calcium fluoride": {
+        "file": "compounds_mixtures/calcium_fluoride.csv",
         "name": "Calcium Fluoride",
-        "symbol": "fluoride"
+        "symbol": "calcium fluoride"
+        "density": {
+            "value": 3.18,
+            "unit": "g/cm^3"
+        }
     },
     "fricke": {
         "file": "compounds_mixtures/fricke.csv",
@@ -158,10 +202,14 @@
         "name": "Photographic Emulsion, Kodak Type AA",
         "symbol": "kodak"
     },
-    "lithium": {
-        "file": "compounds_mixtures/lithium.csv",
+    "lithium tetraborate": {
+        "file": "compounds_mixtures/lithium_tetraborate.csv",
         "name": "Lithium Tetraborate",
-        "symbol": "lithium"
+        "symbol": "lithium tetraborate"
+        "density": {
+            "value": 2.4,
+            "unit": "g/cm^3"
+        }
     },
     "lithium fluoride": {
         "file": "compounds_mixtures/lithiumflu.csv",
@@ -171,22 +219,38 @@
     "lung": {
         "file": "compounds_mixtures/lung.csv",
         "name": "Lung Tissue",
-        "symbol": "lung"
+        "symbol": "lung",
+        "density":{
+            "value": 2.2,
+            "unit": "g/cm^3"
+        }
     },
-    "magnesium": {
-        "file": "compounds_mixtures/magnesium.csv",
+    "magnesium tetraborate": {
+        "file": "compounds_mixtures/magnesium_tetraborate.csv",
         "name": "Magnesium Tetroborate",
-        "symbol": "magnesium"
+        "symbol": "magnesium tetraborate",
+        "density": {
+            "value": 2.53,
+            "unit": "g/cm^3"
+        }
     },
     "mercuric": {
-        "file": "compounds_mixtures/mercuric.csv",
+        "file": "compounds_mixtures/mercuric_iodide.csv",
         "name": "Mercuric Iodide",
-        "symbol": "mercuric"
+        "symbol": "mercuric iodide",
+        "density":{
+            "value": 6.36,
+            "unit": "g/cm^3"
+        }
     },
     "muscle": {
         "file": "compounds_mixtures/muscle.csv",
         "name": "Muscle, Skeletal",
-        "symbol": "muscle"
+        "symbol": "muscle",
+        "density":{
+            "value": 1.06,
+            "unit": "g/cm^3"
+        }
     },
     "nylonfilm": {
         "file": "compounds_mixtures/nylonfilm.csv",
@@ -198,10 +262,10 @@
         "name": "Ovary",
         "symbol": "ovary"
     },
-    "photoemul": {
+    "photo emulsion": {
         "file": "compounds_mixtures/photoemul.csv",
         "name": "Photographic Emulsion, Standard Nuclear",
-        "symbol": "photoemul"
+        "symbol": "photo emulsion"
     },
     "pmma": {
         "file": "compounds_mixtures/pmma.csv",
@@ -226,7 +290,11 @@
     "pyrex": {
         "file": "compounds_mixtures/pyrex.csv",
         "name": "Glass, Borosilicate \"Pyrex\"",
-        "symbol": "pyrex"
+        "symbol": "pyrex",
+        "density":{
+            "value": 2.23,
+            "unit": "g/cm^3"
+        }
     },
     "teflon": {
         "file": "compounds_mixtures/teflon.csv",
