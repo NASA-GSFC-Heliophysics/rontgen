@@ -33,7 +33,7 @@
         "density": {
             "value": 1.127,
             "unit": "g/cm^3"
-        },
+        }
     },
     "adipose": {
         "file": "compounds_mixtures/adipose.csv",
@@ -67,7 +67,7 @@
         "name": "B-100 Bone-Equivalent Plastic",
         "symbol": "b100",
         "density": {
-            "value": 1.45,
+            "value": 1.85,
             "unit": "g/cm^3"
         }
     },
@@ -116,7 +116,11 @@
     "calcium sulfate": {
         "file": "compounds_mixtures/calcium_sulfate.csv",
         "name": "Calcium Sulfate",
-        "symbol": "calcium sulfate"
+        "symbol": "calcium sulfate",
+        "density": {
+            "value": 2.32,
+            "unit": "g/cm^3"
+        }
     },
     "ceric": {
         "file": "compounds_mixtures/ceric.csv",
@@ -144,7 +148,7 @@
     "concreteba": {
         "file": "compounds_mixtures/concrete_barite.csv",
         "name": "Concrete, Barite",
-        "symbol": "concrete barite"
+        "symbol": "concrete barite",
         "density": {
             "value": 3.0,
             "unit": "g/cm^3"
@@ -162,7 +166,7 @@
     "calcium fluoride": {
         "file": "compounds_mixtures/calcium_fluoride.csv",
         "name": "Calcium Fluoride",
-        "symbol": "calcium fluoride"
+        "symbol": "calcium fluoride",
         "density": {
             "value": 3.18,
             "unit": "g/cm^3"
@@ -205,7 +209,7 @@
     "lithium tetraborate": {
         "file": "compounds_mixtures/lithium_tetraborate.csv",
         "name": "Lithium Tetraborate",
-        "symbol": "lithium tetraborate"
+        "symbol": "lithium tetraborate",
         "density": {
             "value": 2.4,
             "unit": "g/cm^3"
@@ -275,17 +279,29 @@
     "polyethylene": {
         "file": "compounds_mixtures/polyethylene.csv",
         "name": "Polyethylene",
-        "symbol": "polyethylene"
+        "symbol": "polyethylene",
+        "density":{
+            "value": 0.91,
+            "unit": "g/cm^3"
+        }
     },
     "polystyrene": {
         "file": "compounds_mixtures/polystyrene.csv",
         "name": "Polystyrene",
-        "symbol": "polystyrene"
+        "symbol": "polystyrene",
+        "density":{
+            "value": 1.05,
+            "unit": "g/cm^3"
+        }
     },
-    "polyvinyl": {
+    "pvc": {
         "file": "compounds_mixtures/polyvinyl.csv",
         "name": "Polyvinyl Chloride",
-        "symbol": "polyvinyl"
+        "symbol": "pvc",
+        "density":{
+            "value": 1.3,
+            "unit": "g/cm^3"
+        }
     },
     "pyrex": {
         "file": "compounds_mixtures/pyrex.csv",
@@ -330,10 +346,14 @@
         "name": "Tissue, Soft (ICRU Four-Component)",
         "symbol": "tissue4"
     },
-    "vinyl": {
-        "file": "compounds_mixtures/vinyl.csv",
+    "vinyltoluene": {
+        "file": "compounds_mixtures/vinyltoluene.csv",
         "name": "Plastic Scintillator, Vinyltoluene",
-        "symbol": "vinyl"
+        "symbol": "vinyltoluene",
+        "density":{
+            "value": 1.05,
+            "unit": "g/cm^3"
+        }
     },
     "water": {
         "file": "compounds_mixtures/water.csv",

@@ -14,7 +14,7 @@ import rontgen
 __all__ = ['Material', 'MassAttenuationCoefficient', 'Compound']
 
 _package_directory = os.path.dirname(os.path.abspath(__file__))
-_data_directory = os.path.abspath(os.path.join(_package_directory, '..', 'data'))
+_data_directory = os.path.abspath(os.path.join(_package_directory, os.path.pardir ,'data'))
 #_filename = 'mass_attenuation_coefficient.hdf5'
 #_data_file = os.path.join(_data_directory, _filename)
 
