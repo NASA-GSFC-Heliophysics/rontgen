@@ -67,9 +67,9 @@ extlinks = {
     'issue': (git_url_root + 'issues/%s', '#'),
     'pr': (git_url_root + 'pulls/%s', 'PR #'),
 }
-import sphinx_py3doc_enhanced_theme
-html_theme = "sphinx_py3doc_enhanced_theme"
-html_theme_path = [sphinx_py3doc_enhanced_theme.get_html_theme_path()]
+#import sphinx_py3doc_enhanced_theme
+#html_theme = "sphinx_py3doc_enhanced_theme"
+#html_theme_path = [sphinx_py3doc_enhanced_theme.get_html_theme_path()]
 html_theme_options = {
     'githuburl': git_url_root
 }
