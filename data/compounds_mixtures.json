@@ -6,7 +6,7 @@
             "value": 6.2,
             "unit": "g/cm^3"
         },
-        "file": "telluride.csv"
+        "file": "compounds_mixtures/telluride.csv"
     },
     "czt": {
         "symbol": "CZT",
@@ -15,7 +15,7 @@
             "value": 6.06,
             "unit": "g/cm^3"
         },
-        "file": "mylar.csv"
+        "file": "compounds_mixtures/mylar.csv"
     },
     "mylar": {
         "symbol": "Mylar",
@@ -24,20 +24,20 @@
             "value": 1.379,
             "unit": "g/cm^3"
         },
-        "file": "mylar.csv"
+        "file": "compounds_mixtures/mylar.csv"
     },
       "a150": {
-        "file": "a150.csv",
+        "file": "compounds_mixtures/a150.csv",
         "name": "A-150 Tissue-Equivalent Plastic",
         "symbol": "a150"
     },
     "adipose": {
-        "file": "adipose.csv",
+        "file": "compounds_mixtures/adipose.csv",
         "name": "Adipose Tissue",
         "symbol": "adipose"
     },
     "air": {
-        "file": "air.csv",
+        "file": "compounds_mixtures/air.csv",
         "name": "Air, Dry",
         "symbol": "air",
         "density": {
@@ -46,57 +46,57 @@
         }
     },
     "alanine": {
-        "file": "alanine.csv",
+        "file": "compounds_mixtures/alanine.csv",
         "name": "Alanine",
         "symbol": "alanine"
     },
     "b100": {
-        "file": "b100.csv",
+        "file": "compounds_mixtures/b100.csv",
         "name": "B-100 Bone-Equivalent Plastic",
         "symbol": "b100"
     },
     "bakelite": {
-        "file": "bakelite.csv",
+        "file": "compounds_mixtures/bakelite.csv",
         "name": "Bakelite",
         "symbol": "bakelite"
     },
     "blood": {
-        "file": "blood.csv",
+        "file": "compounds_mixtures/blood.csv",
         "name": "Blood, Whole",
         "symbol": "blood"
     },
     "bone": {
-        "file": "bone.csv",
+        "file": "compounds_mixtures/bone.csv",
         "name": "Bone, Cortical",
         "symbol": "bone"
     },
     "brain": {
-        "file": "brain.csv",
+        "file": "compounds_mixtures/brain.csv",
         "name": "Brain, Grey/White Matter",
         "symbol": "brain"
     },
     "breast": {
-        "file": "breast.csv",
+        "file": "compounds_mixtures/breast.csv",
         "name": "Breast Tissue",
         "symbol": "breast"
     },
     "c552": {
-        "file": "c552.csv",
+        "file": "compounds_mixtures/c552.csv",
         "name": "C-552 Air-equivalent Plastic",
         "symbol": "c552"
     },
     "calcium sulfate": {
-        "file": "calcium.csv",
+        "file": "compounds_mixtures/calcium.csv",
         "name": "Calcium Sulfate",
         "symbol": "calcium"
     },
     "ceric": {
-        "file": "ceric.csv",
+        "file": "compounds_mixtures/ceric.csv",
         "name": "15 mmol L-1 Ceric Ammonium Sulfate Solution",
         "symbol": "ceric"
     },
     "cesium iodide": {
-        "file": "cesium.csv",
+        "file": "compounds_mixtures/cesium.csv",
         "name": "Cesium Iodide",
         "symbol": "cesium",
         "density": {
@@ -105,42 +105,42 @@
         }
     },
     "concrete": {
-        "file": "concrete.csv",
+        "file": "compounds_mixtures/concrete.csv",
         "name": "Concrete, Ordinary",
         "symbol": "concrete"
     },
     "concreteba": {
-        "file": "concreteba.csv",
+        "file": "compounds_mixtures/concreteba.csv",
         "name": "Concrete, Barite",
         "symbol": "concreteba"
     },
     "eye": {
-        "file": "eye.csv",
+        "file": "compounds_mixtures/eye.csv",
         "name": "Eye Lens",
         "symbol": "eye"
     },
     "fluoride": {
-        "file": "fluoride.csv",
+        "file": "compounds_mixtures/fluoride.csv",
         "name": "Calcium Fluoride",
         "symbol": "fluoride"
     },
     "fricke": {
-        "file": "fricke.csv",
+        "file": "compounds_mixtures/fricke.csv",
         "name": "Ferrous Sulfate, Standard Fricke",
         "symbol": "fricke"
     },
     "gadolinium": {
-        "file": "gadolinium.csv",
+        "file": "compounds_mixtures/gadolinium.csv",
         "name": "Gadolinium Oxysulfide",
         "symbol": "gadolinium"
     },
     "gafchromic": {
-        "file": "gafchromic.csv",
+        "file": "compounds_mixtures/gafchromic.csv",
         "name": "Gafchromic Sensor",
         "symbol": "gafchromic"
     },
     "gallium arsenide": {
-        "file": "gallium.csv",
+        "file": "compounds_mixtures/gallium.csv",
         "name": "Gallium Arsenide",
         "symbol": "gallium arsenide",
         "density": {
@@ -149,87 +149,87 @@
         }
     },
     "glass": {
-        "file": "glass.csv",
+        "file": "compounds_mixtures/glass.csv",
         "name": "Glass, Lead",
         "symbol": "glass"
     },
     "kodak": {
-        "file": "kodak.csv",
+        "file": "compounds_mixtures/kodak.csv",
         "name": "Photographic Emulsion, Kodak Type AA",
         "symbol": "kodak"
     },
     "lithium": {
-        "file": "lithium.csv",
+        "file": "compounds_mixtures/lithium.csv",
         "name": "Lithium Tetraborate",
         "symbol": "lithium"
     },
     "lithium fluoride": {
-        "file": "lithiumflu.csv",
+        "file": "compounds_mixtures/lithiumflu.csv",
         "name": "Lithium Fluoride",
         "symbol": "lithium fluoride"
     },
     "lung": {
-        "file": "lung.csv",
+        "file": "compounds_mixtures/lung.csv",
         "name": "Lung Tissue",
         "symbol": "lung"
     },
     "magnesium": {
-        "file": "magnesium.csv",
+        "file": "compounds_mixtures/magnesium.csv",
         "name": "Magnesium Tetroborate",
         "symbol": "magnesium"
     },
     "mercuric": {
-        "file": "mercuric.csv",
+        "file": "compounds_mixtures/mercuric.csv",
         "name": "Mercuric Iodide",
         "symbol": "mercuric"
     },
     "muscle": {
-        "file": "muscle.csv",
+        "file": "compounds_mixtures/muscle.csv",
         "name": "Muscle, Skeletal",
         "symbol": "muscle"
     },
     "nylonfilm": {
-        "file": "nylonfilm.csv",
+        "file": "compounds_mixtures/nylonfilm.csv",
         "name": "Radiochromic Dye Film, Nylon Base",
         "symbol": "nylonfilm"
     },
     "ovary": {
-        "file": "ovary.csv",
+        "file": "compounds_mixtures/ovary.csv",
         "name": "Ovary",
         "symbol": "ovary"
     },
     "photoemul": {
-        "file": "photoemul.csv",
+        "file": "compounds_mixtures/photoemul.csv",
         "name": "Photographic Emulsion, Standard Nuclear",
         "symbol": "photoemul"
     },
     "pmma": {
-        "file": "pmma.csv",
+        "file": "compounds_mixtures/pmma.csv",
         "name": "Polymethyl Methacrylate",
         "symbol": "pmma"
     },
     "polyethylene": {
-        "file": "polyethylene.csv",
+        "file": "compounds_mixtures/polyethylene.csv",
         "name": "Polyethylene",
         "symbol": "polyethylene"
     },
     "polystyrene": {
-        "file": "polystyrene.csv",
+        "file": "compounds_mixtures/polystyrene.csv",
         "name": "Polystyrene",
         "symbol": "polystyrene"
     },
     "polyvinyl": {
-        "file": "polyvinyl.csv",
+        "file": "compounds_mixtures/polyvinyl.csv",
         "name": "Polyvinyl Chloride",
         "symbol": "polyvinyl"
     },
     "pyrex": {
-        "file": "pyrex.csv",
+        "file": "compounds_mixtures/pyrex.csv",
         "name": "Glass, Borosilicate \"Pyrex\"",
         "symbol": "pyrex"
     },
     "teflon": {
-        "file": "teflon.csv",
+        "file": "compounds_mixtures/teflon.csv",
         "name": "Polytetrafluoroethylene, \"Teflon\"",
         "symbol": "teflon",
         "density":{
@@ -238,37 +238,37 @@
         }
     },
     "temethane": {
-        "file": "temethane.csv",
+        "file": "compounds_mixtures/temethane.csv",
         "name": "Tissue-Equivalent Gas, Methane Based",
         "symbol": "temethane"
     },
     "tepropane": {
-        "file": "tepropane.csv",
+        "file": "compounds_mixtures/tepropane.csv",
         "name": "Tissue-Equivalent Gas, Propane Based",
         "symbol": "tepropane"
     },
     "testis": {
-        "file": "testis.csv",
+        "file": "compounds_mixtures/testis.csv",
         "name": "Testis",
         "symbol": "testis"
     },
     "tissue": {
-        "file": "tissue.csv",
+        "file": "compounds_mixtures/tissue.csv",
         "name": "Tissue, Soft",
         "symbol": "tissue"
     },
     "tissue4": {
-        "file": "tissue4.csv",
+        "file": "compounds_mixtures/tissue4.csv",
         "name": "Tissue, Soft (ICRU Four-Component)",
         "symbol": "tissue4"
     },
     "vinyl": {
-        "file": "vinyl.csv",
+        "file": "compounds_mixtures/vinyl.csv",
         "name": "Plastic Scintillator, Vinyltoluene",
         "symbol": "vinyl"
     },
     "water": {
-        "file": "water.csv",
+        "file": "compounds_mixtures/water.csv",
         "name": "Water, Liquid",
         "symbol": "water",
         "density": {

@@ -1,7 +1,7 @@
 {
-    "a": {
+    "au": {
         "atomicNumber": 79,
-        "file": "z79.csv",
+        "file": "elements/z79.csv",
         "name": "Gold",
         "symbol": "Au",
         "density": {
@@ -15,7 +15,7 @@
             "unit": "g/cm^3",
             "value": 10.07
         },
-        "file": "z89.csv",
+        "file": "elements/z89.csv",
         "name": "Actinium",
         "symbol": "Ac"
     },
@@ -25,7 +25,7 @@
             "unit": "g/cm^3",
             "value": 10.49
         },
-        "file": "z47.csv",
+        "file": "elements/z47.csv",
         "name": "Silver",
         "symbol": "Ag"
     },
@@ -35,7 +35,7 @@
             "unit": "g/cm^3",
             "value": 2.7
         },
-        "file": "z13.csv",
+        "file": "elements/z13.csv",
         "name": "Aluminum",
         "symbol": "Al"
     },
@@ -45,7 +45,7 @@
             "unit": "g/cm^3",
             "value": 13.67
         },
-        "file": "z95.csv",
+        "file": "elements/z95.csv",
         "name": "Americium",
         "symbol": "Am"
     },
@@ -55,7 +55,7 @@
             "unit": "g/cm^3",
             "value": 0.00166
         },
-        "file": "z18.csv",
+        "file": "elements/z18.csv",
         "name": "Argon",
         "symbol": "Ar"
     },
@@ -65,13 +65,13 @@
             "unit": "g/cm^3",
             "value": 5.72
         },
-        "file": "z33.csv",
+        "file": "elements/z33.csv",
         "name": "Arsenic",
         "symbol": "As"
     },
     "at": {
         "atomicNumber": 85,
-        "file": "z85.csv",
+        "file": "elements/z85.csv",
         "name": "Astatine",
         "symbol": "At"
     },
@@ -81,7 +81,7 @@
             "unit": "g/cm^3",
             "value": 2.46
         },
-        "file": "z05.csv",
+        "file": "elements/z05.csv",
         "name": "Boron",
         "symbol": "B"
     },
@@ -91,7 +91,7 @@
             "unit": "g/cm^3",
             "value": 3.65
         },
-        "file": "z56.csv",
+        "file": "elements/z56.csv",
         "name": "Barium",
         "symbol": "Ba"
     },
@@ -101,7 +101,7 @@
             "unit": "g/cm^3",
             "value": 1.85
         },
-        "file": "z04.csv",
+        "file": "elements/z04.csv",
         "name": "Beryllium",
         "symbol": "Be"
     },
@@ -111,7 +111,7 @@
             "unit": "g/cm^3",
             "value": 9.8
         },
-        "file": "z83.csv",
+        "file": "elements/z83.csv",
         "name": "Bismuth",
         "symbol": "Bi"
     },
@@ -121,7 +121,7 @@
             "unit": "g/cm^3",
             "value": 13.25
         },
-        "file": "z97.csv",
+        "file": "elements/z97.csv",
         "name": "Berkelium",
         "symbol": "Bk"
     },
@@ -131,7 +131,7 @@
             "unit": "g/cm^3",
             "value": 3.14
         },
-        "file": "z35.csv",
+        "file": "elements/z35.csv",
         "name": "Bromine",
         "symbol": "Br"
     },
@@ -141,7 +141,7 @@
             "unit": "g/cm^3",
             "value": 3.51
         },
-        "file": "z06.csv",
+        "file": "elements/z06.csv",
         "name": "Carbon",
         "symbol": "C"
     },
@@ -151,7 +151,7 @@
             "unit": "g/cm^3",
             "value": 1.54
         },
-        "file": "z20.csv",
+        "file": "elements/z20.csv",
         "name": "Calcium",
         "symbol": "Ca"
     },
@@ -161,7 +161,7 @@
             "unit": "g/cm^3",
             "value": 8.64
         },
-        "file": "z48.csv",
+        "file": "elements/z48.csv",
         "name": "Cadmium",
         "symbol": "Cd"
     },
@@ -171,7 +171,7 @@
             "unit": "g/cm^3",
             "value": 6.77
         },
-        "file": "z58.csv",
+        "file": "elements/z58.csv",
         "name": "Cerium",
         "symbol": "Ce"
     },
@@ -181,7 +181,7 @@
             "unit": "g/cm^3",
             "value": 15.1
         },
-        "file": "z98.csv",
+        "file": "elements/z98.csv",
         "name": "Californium",
         "symbol": "Cf"
     },
@@ -191,7 +191,7 @@
             "unit": "g/cm^3",
             "value": 0.0029500000000000004
         },
-        "file": "z17.csv",
+        "file": "elements/z17.csv",
         "name": "Chlorine",
         "symbol": "Cl"
     },
@@ -201,7 +201,7 @@
             "unit": "g/cm^3",
             "value": 13.51
         },
-        "file": "z96.csv",
+        "file": "elements/z96.csv",
         "name": "Curium",
         "symbol": "Cm"
     },
@@ -211,7 +211,7 @@
             "unit": "g/cm^3",
             "value": 8.89
         },
-        "file": "z27.csv",
+        "file": "elements/z27.csv",
         "name": "Cobalt",
         "symbol": "Co"
     },
@@ -221,7 +221,7 @@
             "unit": "g/cm^3",
             "value": 7.14
         },
-        "file": "z24.csv",
+        "file": "elements/z24.csv",
         "name": "Chromium",
         "symbol": "Cr"
     },
@@ -231,7 +231,7 @@
             "unit": "g/cm^3",
             "value": 1.9
         },
-        "file": "z55.csv",
+        "file": "elements/z55.csv",
         "name": "Cesium",
         "symbol": "Cs"
     },
@@ -241,7 +241,7 @@
             "unit": "g/cm^3",
             "value": 8.92
         },
-        "file": "z29.csv",
+        "file": "elements/z29.csv",
         "name": "Copper",
         "symbol": "C"
     },
@@ -251,13 +251,13 @@
             "unit": "g/cm^3",
             "value": 8.56
         },
-        "file": "z66.csv",
+        "file": "elements/z66.csv",
         "name": "Dysprosium",
         "symbol": "Dy"
     },
     "e": {
         "atomicNumber": 63,
-        "file": "z63.csv",
+        "file": "elements/z63.csv",
         "name": "Europium",
         "symbol": "Eu",
         "density":{
@@ -271,13 +271,13 @@
             "unit": "g/cm^3",
             "value": 9.05
         },
-        "file": "z68.csv",
+        "file": "elements/z68.csv",
         "name": "Erbium",
         "symbol": "Er"
     },
     "es": {
         "atomicNumber": 99,
-        "file": "z99.csv",
+        "file": "elements/z99.csv",
         "name": "Einsteinium",
         "symbol": "Es"
     },
@@ -287,7 +287,7 @@
             "unit": "g/cm^3",
             "value": 0.00158
         },
-        "file": "z09.csv",
+        "file": "elements/z09.csv",
         "name": "Fluorine",
         "symbol": "F"
     },
@@ -297,19 +297,19 @@
             "unit": "g/cm^3",
             "value": 7.87
         },
-        "file": "z26.csv",
+        "file": "elements/z26.csv",
         "name": "Iron",
         "symbol": "Fe"
     },
     "fm": {
         "atomicNumber": 100,
-        "file": "z100.csv",
+        "file": "elements/z100.csv",
         "name": "Fermium",
         "symbol": "Fm"
     },
     "fr": {
         "atomicNumber": 87,
-        "file": "z87.csv",
+        "file": "elements/z87.csv",
         "name": "Francium",
         "symbol": "Fr"
     },
@@ -319,7 +319,7 @@
             "unit": "g/cm^3",
             "value": 5.91
         },
-        "file": "z31.csv",
+        "file": "elements/z31.csv",
         "name": "Gallium",
         "symbol": "Ga"
     },
@@ -329,7 +329,7 @@
             "unit": "g/cm^3",
             "value": 7.89
         },
-        "file": "z64.csv",
+        "file": "elements/z64.csv",
         "name": "Gadolinium",
         "symbol": "Gd"
     },
@@ -339,7 +339,7 @@
             "unit": "g/cm^3",
             "value": 5.32
         },
-        "file": "z32.csv",
+        "file": "elements/z32.csv",
         "name": "Germanium",
         "symbol": "Ge"
     },
@@ -349,7 +349,7 @@
             "unit": "g/cm^3",
             "value": 8.400000000000001e-05
         },
-        "file": "z01.csv",
+        "file": "elements/z01.csv",
         "name": "Hydrogen",
         "symbol": "H"
     },
@@ -359,7 +359,7 @@
             "unit": "g/cm^3",
             "value": 0.00017
         },
-        "file": "z02.csv",
+        "file": "elements/z02.csv",
         "name": "Helium",
         "symbol": "He"
     },
@@ -369,7 +369,7 @@
             "unit": "g/cm^3",
             "value": 13.31
         },
-        "file": "z72.csv",
+        "file": "elements/z72.csv",
         "name": "Hafnium",
         "symbol": "Hf"
     },
@@ -379,7 +379,7 @@
             "unit": "g/cm^3",
             "value": 13.55
         },
-        "file": "z80.csv",
+        "file": "elements/z80.csv",
         "name": "Mercury",
         "symbol": "Hg"
     },
@@ -389,7 +389,7 @@
             "unit": "g/cm^3",
             "value": 8.78
         },
-        "file": "z67.csv",
+        "file": "elements/z67.csv",
         "name": "Holmium",
         "symbol": "Ho"
     },
@@ -399,7 +399,7 @@
             "unit": "g/cm^3",
             "value": 4.94
         },
-        "file": "z53.csv",
+        "file": "elements/z53.csv",
         "name": "Iodine",
         "symbol": "I"
     },
@@ -409,7 +409,7 @@
             "unit": "g/cm^3",
             "value": 7.31
         },
-        "file": "z49.csv",
+        "file": "elements/z49.csv",
         "name": "Indium",
         "symbol": "In"
     },
@@ -419,7 +419,7 @@
             "unit": "g/cm^3",
             "value": 22.56
         },
-        "file": "z77.csv",
+        "file": "elements/z77.csv",
         "name": "Iridium",
         "symbol": "Ir"
     },
@@ -429,7 +429,7 @@
             "unit": "g/cm^3",
             "value": 0.86
         },
-        "file": "z19.csv",
+        "file": "elements/z19.csv",
         "name": "Potassium",
         "symbol": "K"
     },
@@ -439,13 +439,13 @@
             "unit": "g/cm^3",
             "value": 0.00348
         },
-        "file": "z36.csv",
+        "file": "elements/z36.csv",
         "name": "Krypton",
         "symbol": "Kr"
     },
     "l": {
         "atomicNumber": 71,
-        "file": "z71.csv",
+        "file": "elements/z71.csv",
         "name": "Lutetium",
         "symbol": "Lu"
     },
@@ -455,7 +455,7 @@
             "unit": "g/cm^3",
             "value": 6.16
         },
-        "file": "z57.csv",
+        "file": "elements/z57.csv",
         "name": "Lanthanum",
         "symbol": "La"
     },
@@ -465,19 +465,19 @@
             "unit": "g/cm^3",
             "value": 0.53
         },
-        "file": "z03.csv",
+        "file": "elements/z03.csv",
         "name": "Lithium",
         "symbol": "Li"
     },
     "lr": {
         "atomicNumber": 103,
-        "file": "z103.csv",
+        "file": "elements/z103.csv",
         "name": "Lawrencium",
         "symbol": "Lr"
     },
     "md": {
         "atomicNumber": 101,
-        "file": "z101.csv",
+        "file": "elements/z101.csv",
         "name": "Mendelevium",
         "symbol": "Md"
     },
@@ -487,7 +487,7 @@
             "unit": "g/cm^3",
             "value": 1.74
         },
-        "file": "z12.csv",
+        "file": "elements/z12.csv",
         "name": "Magnesium",
         "symbol": "Mg"
     },
@@ -497,7 +497,7 @@
             "unit": "g/cm^3",
             "value": 7.44
         },
-        "file": "z25.csv",
+        "file": "elements/z25.csv",
         "name": "Manganese",
         "symbol": "Mn"
     },
@@ -507,7 +507,7 @@
             "unit": "g/cm^3",
             "value": 10.28
         },
-        "file": "z42.csv",
+        "file": "elements/z42.csv",
         "name": "Molybdenum",
         "symbol": "Mo"
     },
@@ -517,7 +517,7 @@
             "unit": "g/cm^3",
             "value": 0.00117
         },
-        "file": "z07.csv",
+        "file": "elements/z07.csv",
         "name": "Nitrogen",
         "symbol": "N"
     },
@@ -527,7 +527,7 @@
             "unit": "g/cm^3",
             "value": 0.97
         },
-        "file": "z11.csv",
+        "file": "elements/z11.csv",
         "name": "Sodium",
         "symbol": "Na"
     },
@@ -537,7 +537,7 @@
             "unit": "g/cm^3",
             "value": 8.58
         },
-        "file": "z41.csv",
+        "file": "elements/z41.csv",
         "name": "Niobium",
         "symbol": "Nb"
     },
@@ -547,7 +547,7 @@
             "unit": "g/cm^3",
             "value": 7.0
         },
-        "file": "z60.csv",
+        "file": "elements/z60.csv",
         "name": "Neodymium",
         "symbol": "Nd"
     },
@@ -557,7 +557,7 @@
             "unit": "g/cm^3",
             "value": 0.0008399999999999999
         },
-        "file": "z10.csv",
+        "file": "elements/z10.csv",
         "name": "Neon",
         "symbol": "Ne"
     },
@@ -567,13 +567,13 @@
             "unit": "g/cm^3",
             "value": 8.91
         },
-        "file": "z28.csv",
+        "file": "elements/z28.csv",
         "name": "Nickel",
         "symbol": "Ni"
     },
     "no": {
         "atomicNumber": 102,
-        "file": "z102.csv",
+        "file": "elements/z102.csv",
         "name": "Nobelium",
         "symbol": "No"
     },
@@ -583,7 +583,7 @@
             "unit": "g/cm^3",
             "value": 20.48
         },
-        "file": "z93.csv",
+        "file": "elements/z93.csv",
         "name": "Neptunium",
         "symbol": "Np"
     },
@@ -593,7 +593,7 @@
             "unit": "g/cm^3",
             "value": 0.00133
         },
-        "file": "z08.csv",
+        "file": "elements/z08.csv",
         "name": "Oxygen",
         "symbol": "O"
     },
@@ -603,7 +603,7 @@
             "unit": "g/cm^3",
             "value": 22.59
         },
-        "file": "z76.csv",
+        "file": "elements/z76.csv",
         "name": "Osmium",
         "symbol": "Os"
     },
@@ -613,7 +613,7 @@
             "unit": "g/cm^3",
             "value": 1.82
         },
-        "file": "z94.csv",
+        "file": "elements/z94.csv",
         "name": "Plutonium",
         "symbol": "Pu"
     },
@@ -623,7 +623,7 @@
             "unit": "g/cm^3",
             "value": 15.37
         },
-        "file": "z91.csv",
+        "file": "elements/z91.csv",
         "name": "Protactinium",
         "symbol": "Pa"
     },
@@ -633,7 +633,7 @@
             "unit": "g/cm^3",
             "value": 11.34
         },
-        "file": "z82.csv",
+        "file": "elements/z82.csv",
         "name": "Lead",
         "symbol": "Pb"
     },
@@ -643,7 +643,7 @@
             "unit": "g/cm^3",
             "value": 12.02
         },
-        "file": "z46.csv",
+        "file": "elements/z46.csv",
         "name": "Palladium",
         "symbol": "Pd"
     },
@@ -653,7 +653,7 @@
             "unit": "g/cm^3",
             "value": 7.22
         },
-        "file": "z61.csv",
+        "file": "elements/z61.csv",
         "name": "Promethium",
         "symbol": "Pm"
     },
@@ -663,7 +663,7 @@
             "unit": "g/cm^3",
             "value": 9.2
         },
-        "file": "z84.csv",
+        "file": "elements/z84.csv",
         "name": "Polonium",
         "symbol": "Po"
     },
@@ -673,7 +673,7 @@
             "unit": "g/cm^3",
             "value": 6.48
         },
-        "file": "z59.csv",
+        "file": "elements/z59.csv",
         "name": "Praseodymium",
         "symbol": "Pr"
     },
@@ -683,13 +683,13 @@
             "unit": "g/cm^3",
             "value": 21.45
         },
-        "file": "z78.csv",
+        "file": "elements/z78.csv",
         "name": "Platinum",
         "symbol": "Pt"
     },
     "r": {
         "atomicNumber": 44,
-        "file": "z44.csv",
+        "file": "elements/z44.csv",
         "name": "Ruthenium",
         "symbol": "R"
     },
@@ -699,7 +699,7 @@
             "unit": "g/cm^3",
             "value": 5.5
         },
-        "file": "z88.csv",
+        "file": "elements/z88.csv",
         "name": "Radium",
         "symbol": "Ra"
     },
@@ -709,7 +709,7 @@
             "unit": "g/cm^3",
             "value": 1.53
         },
-        "file": "z37.csv",
+        "file": "elements/z37.csv",
         "name": "Rubidium",
         "symbol": "Rb"
     },
@@ -719,13 +719,13 @@
             "unit": "g/cm^3",
             "value": 21.03
         },
-        "file": "z75.csv",
+        "file": "elements/z75.csv",
         "name": "Rhenium",
         "symbol": "Re"
     },
     "rf": {
         "atomicNumber": 104,
-        "file": "z104.csv",
+        "file": "elements/z104.csv",
         "name": "Rutherfordium",
         "symbol": "Rf"
     },
@@ -735,7 +735,7 @@
             "unit": "g/cm^3",
             "value": 12.41
         },
-        "file": "z45.csv",
+        "file": "elements/z45.csv",
         "name": "Rhodium",
         "symbol": "Rh"
     },
@@ -745,7 +745,7 @@
             "unit": "g/cm^3",
             "value": 0.00923
         },
-        "file": "z86.csv",
+        "file": "elements/z86.csv",
         "name": "Radon",
         "symbol": "Rn"
     },
@@ -755,7 +755,7 @@
             "unit": "g/cm^3",
             "value": 2.06
         },
-        "file": "z16.csv",
+        "file": "elements/z16.csv",
         "name": "Sulfur",
         "symbol": "S"
     },
@@ -765,7 +765,7 @@
             "unit": "g/cm^3",
             "value": 6.69
         },
-        "file": "z51.csv",
+        "file": "elements/z51.csv",
         "name": "Antimony",
         "symbol": "Sb"
     },
@@ -775,7 +775,7 @@
             "unit": "g/cm^3",
             "value": 2.99
         },
-        "file": "z21.csv",
+        "file": "elements/z21.csv",
         "name": "Scandium",
         "symbol": "Sc"
     },
@@ -785,7 +785,7 @@
             "unit": "g/cm^3",
             "value": 4.82
         },
-        "file": "z34.csv",
+        "file": "elements/z34.csv",
         "name": "Selenium",
         "symbol": "Se"
     },
@@ -795,7 +795,7 @@
             "unit": "g/cm^3",
             "value": 2.33
         },
-        "file": "z14.csv",
+        "file": "elements/z14.csv",
         "name": "Silicon",
         "symbol": "Si"
     },
@@ -805,7 +805,7 @@
             "unit": "g/cm^3",
             "value": 7.54
         },
-        "file": "z62.csv",
+        "file": "elements/z62.csv",
         "name": "Samarium",
         "symbol": "Sm"
     },
@@ -815,7 +815,7 @@
             "unit": "g/cm^3",
             "value": 7.29
         },
-        "file": "z50.csv",
+        "file": "elements/z50.csv",
         "name": "Tin",
         "symbol": "Sn"
     },
@@ -825,7 +825,7 @@
             "unit": "g/cm^3",
             "value": 2.63
         },
-        "file": "z38.csv",
+        "file": "elements/z38.csv",
         "name": "Strontium",
         "symbol": "Sr"
     },
@@ -835,7 +835,7 @@
             "unit": "g/cm^3",
             "value": 16.68
         },
-        "file": "z73.csv",
+        "file": "elements/z73.csv",
         "name": "Tantalum",
         "symbol": "Ta"
     },
@@ -845,7 +845,7 @@
             "unit": "g/cm^3",
             "value": 8.25
         },
-        "file": "z65.csv",
+        "file": "elements/z65.csv",
         "name": "Terbium",
         "symbol": "Tb"
     },
@@ -855,7 +855,7 @@
             "unit": "g/cm^3",
             "value": 11.49
         },
-        "file": "z43.csv",
+        "file": "elements/z43.csv",
         "name": "Technetium",
         "symbol": "Tc"
     },
@@ -865,7 +865,7 @@
             "unit": "g/cm^3",
             "value": 6.25
         },
-        "file": "z52.csv",
+        "file": "elements/z52.csv",
         "name": "Tellurium",
         "symbol": "Te"
     },
@@ -875,7 +875,7 @@
             "unit": "g/cm^3",
             "value": 11.72
         },
-        "file": "z90.csv",
+        "file": "elements/z90.csv",
         "name": "Thorium",
         "symbol": "Th"
     },
@@ -885,7 +885,7 @@
             "unit": "g/cm^3",
             "value": 4.51
         },
-        "file": "z22.csv",
+        "file": "elements/z22.csv",
         "name": "Titanium",
         "symbol": "Ti"
     },
@@ -895,7 +895,7 @@
             "unit": "g/cm^3",
             "value": 11.85
         },
-        "file": "z81.csv",
+        "file": "elements/z81.csv",
         "name": "Thallium",
         "symbol": "Tl"
     },
@@ -905,7 +905,7 @@
             "unit": "g/cm^3",
             "value": 9.32
         },
-        "file": "z69.csv",
+        "file": "elements/z69.csv",
         "name": "Thulium",
         "symbol": "Tm"
     },
@@ -915,7 +915,7 @@
             "unit": "g/cm^3",
             "value": 18.97
         },
-        "file": "z92.csv",
+        "file": "elements/z92.csv",
         "name": "Uranium",
         "symbol": ""
     },
@@ -925,7 +925,7 @@
             "unit": "g/cm^3",
             "value": 6.09
         },
-        "file": "z23.csv",
+        "file": "elements/z23.csv",
         "name": "Vanadium",
         "symbol": "V"
     },
@@ -935,7 +935,7 @@
             "unit": "g/cm^3",
             "value": 19.26
         },
-        "file": "z74.csv",
+        "file": "elements/z74.csv",
         "name": "Tungsten",
         "symbol": "W"
     },
@@ -945,7 +945,7 @@
             "unit": "g/cm^3",
             "value": 0.00449
         },
-        "file": "z54.csv",
+        "file": "elements/z54.csv",
         "name": "Xenon",
         "symbol": "Xe"
     },
@@ -955,7 +955,7 @@
             "unit": "g/cm^3",
             "value": 4.47
         },
-        "file": "z39.csv",
+        "file": "elements/z39.csv",
         "name": "Yttrium",
         "symbol": "Y"
     },
@@ -965,7 +965,7 @@
             "unit": "g/cm^3",
             "value": 6.97
         },
-        "file": "z70.csv",
+        "file": "elements/z70.csv",
         "name": "Ytterbium",
         "symbol": "Yb"
     },
@@ -975,7 +975,7 @@
             "unit": "g/cm^3",
             "value": 7.14
         },
-        "file": "z30.csv",
+        "file": "elements/z30.csv",
         "name": "Zinc",
         "symbol": "Zn"
     },
@@ -985,7 +985,7 @@
             "unit": "g/cm^3",
             "value": 6.51
         },
-        "file": "z40.csv",
+        "file": "elements/z40.csv",
         "name": "Zirconium",
         "symbol": "Zr"
     }
