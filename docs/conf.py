@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 import os
+import rontgen
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
@@ -70,9 +71,9 @@ extlinks = {
 #import sphinx_py3doc_enhanced_theme
 #html_theme = "sphinx_py3doc_enhanced_theme"
 #html_theme_path = [sphinx_py3doc_enhanced_theme.get_html_theme_path()]
-html_theme_options = {
-    'githuburl': git_url_root
-}
+#html_theme_options = {
+#    'githuburl': git_url_root
+#}
 
 html_use_smartypants = True
 html_last_updated_fmt = '%b %d, %Y'
@@ -86,6 +87,33 @@ napoleon_use_ivar = True
 napoleon_use_rtype = False
 napoleon_use_param = False
 
-import rontgen
+
+def data_plot_file(material_name):
+    out = """{material_name}\n===============\n
+
+.. plot::\n    :include-source:
+
+    from rontgen import MassAttenuationCoefficient
+    import numpy as np
+    import astropy.units as u
+    import matplotlib.pyplot as plt
+
+    mass_atten = MassAttenuationCoefficient("{material_name}")
+
+    energy = u.Quantity(np.arange(1, 1000), 'keV')
+    atten = mass_atten.func(energy)
+
+    plt.plot(energy, atten)
+    plt.yscale('log')
+    plt.xscale('log')
+    plt.xlabel('Energy [' + str(energy.unit) + ']')
+    plt.ylabel('Mass attenuation Coefficient [' + str(atten.unit) + ']')
+    plt.title(mass_atten.name)
+    plt.show()
+    """.format(material_name=material_name)
+    return out
+
 for mat in rontgen.material_list:
-    print(mat)
+    f = open(os.path.join('data/', mat + '.rst'), 'w+')
+    f.write(data_plot_file(mat))
+
