@@ -1,9 +1,9 @@
-from rontgen import Mass_attenuation_coefficient
+from rontgen import MassAttenuationCoefficient
 import numpy as np
 import astropy.units as u
 import matplotlib.pyplot as plt
 
-cdte_atten = Mass_attenuation_coefficient('cdte')
+cdte_atten = MassAttenuationCoefficient('cdte')
 
 print(cdte_atten.func(5 * u.keV))
 

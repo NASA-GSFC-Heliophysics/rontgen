@@ -11,7 +11,7 @@ import astropy.units as u
 from scipy import interpolate
 import rontgen
 
-__all__ = ['Material', 'Mass_attenuation_coefficient']
+__all__ = ['Material', 'MassAttenuationCoefficient', 'Compound']
 
 _package_directory = os.path.dirname(os.path.abspath(__file__))
 _data_directory = os.path.abspath(os.path.join(_package_directory, '..', 'data'))
@@ -42,7 +42,7 @@ class Material(object):
     def __init__(self, material_str, thickness, density=None):
         self.name = material_str
         self.thickness = thickness
-        self.mass_attenuation_coefficient = Mass_attenuation_coefficient(material_str)
+        self.mass_attenuation_coefficient = MassAttenuationCoefficient(material_str)
         self.long_name = self.mass_attenuation_coefficient.long_name
         if density is None:
             self.density = self.mass_attenuation_coefficient.density
@@ -54,6 +54,9 @@ class Material(object):
         txt = '<Material ' + str(self.name) + ' (' + str(self.long_name) + ') '
         txt += str(self.thickness) + ' ' + str(self.density) + '>'
         return txt
+
+    def __add__(self, other):
+        return Compound([self, other])
 
     def transmission(self, energy):
         """Provide the transmission fraction (0 to 1).
@@ -95,9 +98,41 @@ class Compound(object):
     """
 
     def __init__(self, materials):
+        self.materials = materials
+
+    def __repr__(self):
+        """Returns a human-readable representation."""
+        txt = '<Compound '
+        for material in self.materials:
+            txt += str(material)
+        return txt + '>'
+
+    def transmission(self, energy):
+        """Provide the transmission fraction (0 to 1).
+
+        Parameters
+        ----------
+        energy : `astropy.units.Quantity`
+            An array of energies in keV
+        """
+        transmission = np.ones(len(energy), dtype=np.float)
+        for material in self.materials:
+            coefficients = material.mass_attenuation_coefficient.func(energy)
+            transmission *= np.exp(- coefficients * self.density * self.thickness)
+        return transmission
+
+    def absorption(self, energy):
+        """Provides the absorption fraction (0 to 1).
+
+        Parameters
+        ----------
+        energy : `astropy.units.Quantity`
+            An array of energies in keV.
+        """
+        return 1 - self.transmission(energy)
 
 
-class Mass_attenuation_coefficient(object):
+class MassAttenuationCoefficient(object):
     """
 
     """
