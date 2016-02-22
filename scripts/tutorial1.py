@@ -11,6 +11,7 @@ energy = u.Quantity(np.arange(1, 1000), 'keV')
 atten = cdte_atten.func(energy)
 
 plt.plot(energy, atten)
+plt.plot(cdte_atten.energy, cdte_atten.data, 'o')
 plt.yscale('log')
 plt.xscale('log')
 plt.xlabel('Energy [' + str(energy.unit) + ']')

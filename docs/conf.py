@@ -88,8 +88,8 @@ napoleon_use_rtype = False
 napoleon_use_param = False
 
 
-def data_plot_file(material_name):
-    out = """{material_name}\n===============\n
+def data_plot_file(material_name, title):
+    out = """{material_title}\n===============\n
 
 .. plot::\n    :include-source:
 
@@ -100,20 +100,20 @@ def data_plot_file(material_name):
 
     mass_atten = MassAttenuationCoefficient("{material_name}")
 
-    energy = u.Quantity(np.arange(1, 1000), 'keV')
-    atten = mass_atten.func(energy)
+    energy = mass_atten.energy
+    atten = mass_atten.data
 
     plt.plot(energy, atten)
     plt.yscale('log')
     plt.xscale('log')
     plt.xlabel('Energy [' + str(energy.unit) + ']')
     plt.ylabel('Mass attenuation Coefficient [' + str(atten.unit) + ']')
-    plt.title(mass_atten.name)
+    plt.title(mass_atten.long_name)
     plt.show()
-    """.format(material_name=material_name)
+    """.format(material_name=material_name, material_title=title)
     return out
 
 for mat in rontgen.material_list:
     f = open(os.path.join('data/', mat + '.rst'), 'w+')
-    f.write(data_plot_file(mat))
+    f.write(data_plot_file(mat, rontgen.material_list[mat].get('name')))
 
