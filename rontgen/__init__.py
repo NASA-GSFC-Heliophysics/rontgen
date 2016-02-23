@@ -6,7 +6,7 @@ import json
 
 
 _package_directory = os.path.dirname(os.path.abspath(__file__))
-_data_directory = os.path.abspath(os.path.join(_package_directory, '..', 'data'))
+_data_directory = os.path.abspath(os.path.join(_package_directory, 'data'))
 
 with open(os.path.join(_data_directory, 'elements.json')) as data_file:
     elements_list = json.load(data_file)
