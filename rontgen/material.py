@@ -45,7 +45,11 @@ class Material(object):
         self.mass_attenuation_coefficient = MassAttenuationCoefficient(material_str)
         self.long_name = self.mass_attenuation_coefficient.long_name
         if density is None:
-            self.density = self.mass_attenuation_coefficient.density
+            mat = rontgen.material_list[material_str.lower()]
+            try:
+                self.density = u.Quantity(mat['density']['value'], mat['density']['unit'])
+            except:
+                raise ValueError("Default density not available.")
         else:
             self.density = density
 
@@ -143,8 +147,6 @@ class MassAttenuationCoefficient(object):
         self.long_name = mat['name']
         datafile_path = os.path.join(_data_directory, mat['file'])
         data = np.loadtxt(datafile_path, delimiter=',')
-        self.density = u.Quantity(mat['density']['value'],
-                                  mat['density']['unit'])
         self.energy = u.Quantity(data[:, 0] * 1000, 'keV')
         self.data = u.Quantity(data[:, 1], 'cm^2/g')
 
