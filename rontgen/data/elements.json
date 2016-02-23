@@ -39,16 +39,6 @@
         "name": "Aluminum",
         "symbol": "Al"
     },
-    "am": {
-        "atomicNumber": 95,
-        "density": {
-            "unit": "g/cm^3",
-            "value": 13.67
-        },
-        "file": "elements/z95.csv",
-        "name": "Americium",
-        "symbol": "Am"
-    },
     "ar": {
         "atomicNumber": 18,
         "density": {
@@ -115,16 +105,6 @@
         "name": "Bismuth",
         "symbol": "Bi"
     },
-    "bk": {
-        "atomicNumber": 97,
-        "density": {
-            "unit": "g/cm^3",
-            "value": 13.25
-        },
-        "file": "elements/z97.csv",
-        "name": "Berkelium",
-        "symbol": "Bk"
-    },
     "br": {
         "atomicNumber": 35,
         "density": {
@@ -175,35 +155,15 @@
         "name": "Cerium",
         "symbol": "Ce"
     },
-    "cf": {
-        "atomicNumber": 98,
-        "density": {
-            "unit": "g/cm^3",
-            "value": 15.1
-        },
-        "file": "elements/z98.csv",
-        "name": "Californium",
-        "symbol": "Cf"
-    },
     "cl": {
         "atomicNumber": 17,
         "density": {
             "unit": "g/cm^3",
-            "value": 0.0029500000000000004
+            "value": 0.00295
         },
         "file": "elements/z17.csv",
         "name": "Chlorine",
         "symbol": "Cl"
-    },
-    "cm": {
-        "atomicNumber": 96,
-        "density": {
-            "unit": "g/cm^3",
-            "value": 13.51
-        },
-        "file": "elements/z96.csv",
-        "name": "Curium",
-        "symbol": "Cm"
     },
     "co": {
         "atomicNumber": 27,
@@ -243,7 +203,7 @@
         },
         "file": "elements/z29.csv",
         "name": "Copper",
-        "symbol": "C"
+        "symbol": "Cu"
     },
     "dy": {
         "atomicNumber": 66,
@@ -255,7 +215,7 @@
         "name": "Dysprosium",
         "symbol": "Dy"
     },
-    "e": {
+    "eu": {
         "atomicNumber": 63,
         "file": "elements/z63.csv",
         "name": "Europium",
@@ -274,12 +234,6 @@
         "file": "elements/z68.csv",
         "name": "Erbium",
         "symbol": "Er"
-    },
-    "es": {
-        "atomicNumber": 99,
-        "file": "elements/z99.csv",
-        "name": "Einsteinium",
-        "symbol": "Es"
     },
     "f": {
         "atomicNumber": 9,
@@ -300,12 +254,6 @@
         "file": "elements/z26.csv",
         "name": "Iron",
         "symbol": "Fe"
-    },
-    "fm": {
-        "atomicNumber": 100,
-        "file": "elements/z100.csv",
-        "name": "Fermium",
-        "symbol": "Fm"
     },
     "fr": {
         "atomicNumber": 87,
@@ -469,18 +417,6 @@
         "name": "Lithium",
         "symbol": "Li"
     },
-    "lr": {
-        "atomicNumber": 103,
-        "file": "elements/z103.csv",
-        "name": "Lawrencium",
-        "symbol": "Lr"
-    },
-    "md": {
-        "atomicNumber": 101,
-        "file": "elements/z101.csv",
-        "name": "Mendelevium",
-        "symbol": "Md"
-    },
     "mg": {
         "atomicNumber": 12,
         "density": {
@@ -555,7 +491,7 @@
         "atomicNumber": 10,
         "density": {
             "unit": "g/cm^3",
-            "value": 0.0008399999999999999
+            "value": 0.00084
         },
         "file": "elements/z10.csv",
         "name": "Neon",
@@ -570,22 +506,6 @@
         "file": "elements/z28.csv",
         "name": "Nickel",
         "symbol": "Ni"
-    },
-    "no": {
-        "atomicNumber": 102,
-        "file": "elements/z102.csv",
-        "name": "Nobelium",
-        "symbol": "No"
-    },
-    "np": {
-        "atomicNumber": 93,
-        "density": {
-            "unit": "g/cm^3",
-            "value": 20.48
-        },
-        "file": "elements/z93.csv",
-        "name": "Neptunium",
-        "symbol": "Np"
     },
     "o": {
         "atomicNumber": 8,
@@ -606,16 +526,6 @@
         "file": "elements/z76.csv",
         "name": "Osmium",
         "symbol": "Os"
-    },
-    "p": {
-        "atomicNumber": 94,
-        "density": {
-            "unit": "g/cm^3",
-            "value": 1.82
-        },
-        "file": "elements/z94.csv",
-        "name": "Plutonium",
-        "symbol": "Pu"
     },
     "pa": {
         "atomicNumber": 91,
@@ -722,12 +632,6 @@
         "file": "elements/z75.csv",
         "name": "Rhenium",
         "symbol": "Re"
-    },
-    "rf": {
-        "atomicNumber": 104,
-        "file": "elements/z104.csv",
-        "name": "Rutherfordium",
-        "symbol": "Rf"
     },
     "rh": {
         "atomicNumber": 45,
@@ -917,7 +821,7 @@
         },
         "file": "elements/z92.csv",
         "name": "Uranium",
-        "symbol": ""
+        "symbol": "U"
     },
     "v": {
         "atomicNumber": 23,
