@@ -113,7 +113,7 @@ def data_plot_file(material_name, title):
     """.format(material_name=material_name, material_title=title)
     return out
 
-for mat in rontgen.material_list:
-    f = open(os.path.join('data/', mat + '.rst'), 'w+')
-    f.write(data_plot_file(mat, rontgen.material_list[mat].get('name')))
+#for mat in rontgen.material_list:
+#    f = open(os.path.join('data/', mat + '.rst'), 'w+')
+#    f.write(data_plot_file(mat, rontgen.material_list[mat].get('name')))
 
