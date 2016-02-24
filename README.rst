@@ -9,12 +9,18 @@ Overview
 
     * - docs
       - |docs|
+    * - build status
+      - |build|
     * - package
       - |version| |downloads| |wheel| |supported-versions| |supported-implementations|
 
 .. |docs| image:: https://readthedocs.org/projects/rontgen/badge/?style=flat
     :target: https://readthedocs.org/projects/rontgen/
     :alt: Documentation Status
+
+.. |build| image:: https://travis-ci.org/NASA-GSFC-Heliophysics/rontgen.svg?branch=master
+    :target: https://travis-ci.org/NASA-GSFC-Heliophysics/rontgen
+    :alt: Build Status
 
 .. |version| image:: https://img.shields.io/pypi/v/rontgen.svg?style=flat
     :alt: PyPI Package latest release
